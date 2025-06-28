@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>CampusCore</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="{{ url_for('static', filename='img/logo_img.png') }}" rel="icon">
+  <link href="{{ url_for('static', filename='img/logo_img.png') }}" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy:wght@400&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/aos/aos.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='main.js') }}"></script>
+</head>
+
+<body class="index-page">
+  <header id="header" class="header fixed-top">
+    <div class="branding d-flex align-items-center">
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="{{ url_for('index') }}" class="logo d-flex align-items-center">
+          <img src="{{ url_for('static', filename='img/logo_img.png') }}" 
+          alt="CampusCore Logo" 
+          class="img-fluid" 
+          style="max-height: 35px !important; /* reduced from 50px to 35px */
+                 height: 35px !important;
+                 width: auto !important;
+                 object-fit: contain !important;">     
+          <h1 class="sitename">CampusCore</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="{{ url_for('profile') }}" class="nav-link">Profile</a></li>
+            <li><a href="{{ url_for('search') }}" class="nav-link">Search</a></li>
+            <li><a href="{{ url_for('contact') }}" class="nav-link">Contact Us</a></li>
+            <li class="dropdown"><a href="#"><span>Settings</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="{{ url_for('account_settings') }}">Account Settings</a></li>
+                <li><a href="/logout">Logout</a></li>               
+              </ul>
+            </li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- New Hero Section (Code 2) -->
+    <section id="hero2" class="hero2-section dark-background">
+      <div class="hero2-container">
+        <!-- Left Side: Text Content -->
+        <div class="hero2-content">
+          <h1>
+            <span class="highlight2">Welcome, </span>{{user.name}}!
+          </h1>
+          <p>
+            Collaborate. Connect. Cultivate. The platform to meet likeminded peers, develop with them, and grow professionally.
+          </p>
+          <div class="hero2-buttons">
+            <a href="{{ url_for('chatbot') }}" class="btn2 secondary2">Ask and Explore!</a>
+            <a href="{{ url_for('opportunities') }}" class="btn2 primary2">Opportunities</a>
+          </div>
+        </div>
+
+        <!-- Right Side: Image -->
+        <div class="hero2-image">
+          <img src="{{ url_for('static', filename='img/img1.png') }}" alt="AI Design Image" />
+        </div>        
+      </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="why-us section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Why Us</h2>
+        <div><span style="color:#ccc">Why choose</span> <span class="description-title">Our Website</span></div>
+      </div>
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <span>01</span>
+              <h4><a href="" class="stretched-link" style="color:white">Search Engine</a></h4>
+              <p style="color:#ccc">Search seamlessly to discover students, events, and resources tailored to your interests and skills.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-item">
+              <span>02</span>
+              <h4><a href="" class="stretched-link" style="color:white">Recommendation System</a></h4>
+              <p style="color:#ccc">Our system curates recommendations that align with your skills, goals, and connections to grow your network.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-item">
+              <span>03</span>
+              <h4><a href="" class="stretched-link" style="color:white">Dedicated Chatbot</a></h4>
+              <p style="color:#ccc">Explore curated learning paths or networking opportunities with our go-to chatbot assistance, effortlessly.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/aos/aos.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/glightbox/js/glightbox.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/swiper/swiper-bundle.min.js') }}"></script>
+
+  <!-- Initialize AOS -->
+  <script>
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    });
+  </script>
+
+  <!-- Preloader script -->
+  <script>
+    window.addEventListener('load', function() {
+      const preloader = document.getElementById('preloader');
+      if (preloader) {
+        preloader.remove();
+      }
+    });
+  </script>
+  
+  <!-- Main JS File -->
+  <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>

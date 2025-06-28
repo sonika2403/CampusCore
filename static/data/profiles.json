@@ -1,0 +1,4837 @@
+[
+    {
+        "personalInfo": {
+            "name": "Roshni Reju",
+            "email": "roshni1282@gmail.com",
+            "phone": "+1234567890",
+            "location": "Bangalore",
+            "bio": "Computer Science student passionate about web development",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMRU University",
+                "degree": "B.Tech",
+                "field": "Computer Science",
+                "startDate": "2020-09",
+                "endDate": "2024-06",
+                "grade": "8.5 CGPA",
+                "activities": "Member of coding club"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "JavaScript",
+                    "Java"
+                ]
+            },
+            {
+                "category": "Web Technologies",
+                "items": [
+                    "HTML",
+                    "CSS",
+                    "React"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Developer Intern",
+                "company": "Tech Corp",
+                "location": "Bangalore",
+                "startDate": "2023-06",
+                "endDate": "2023-12",
+                "description": "Developed full-stack web applications",
+                "technologies": [
+                    "Python",
+                    "Flask",
+                    "MongoDB"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "E-learning Platform",
+                "description": "Built a web-based learning management system",
+                "technologies": [
+                    "Python",
+                    "Flask",
+                    "MongoDB"
+                ],
+                "link": "https://github.com/username/project",
+                "startDate": "2023-01",
+                "endDate": "2023-03"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club Lead",
+                "description": "Organized coding workshops and hackathons",
+                "startDate": "2022-09",
+                "endDate": "2023-09"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/username",
+            "github": "https://github.com/username",
+            "portfolio": "https://username.github.io"
+        },
+        "lastUpdated": "2024-01-20T10:30:00Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Rose",
+            "bio": "",
+            "phone": "9632176192",
+            "location": "Bangalore"
+        },
+        "education": [],
+        "skills": [],
+        "experience": [],
+        "projects": [],
+        "extracurriculars": [],
+        "socialLinks": {
+            "linkedin": "",
+            "github": "",
+            "portfolio": ""
+        }
+    },
+    {
+        "personalInfo": {
+            "name": "Rose",
+            "bio": "",
+            "phone": "+919632176192",
+            "location": "Bengaluru, Karnataka",
+            "email": "roshnireju559@gmail.com"
+        },
+        "education": [
+            {
+                "degree": "Bachelor's",
+                "field": "IT",
+                "startYear": "2025-07",
+                "endYear": "2025-08",
+                "grade": "9.0",
+                "institution": ""
+            }
+        ],
+        "skills": [
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "django",
+                    "node.js"
+                ]
+            },
+            {
+                "category": "Web Technologies",
+                "items": [
+                    "HTML",
+                    "Bootstrap"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Intern",
+                "company": "bizprout",
+                "location": "Bengaluru, Karnataka",
+                "startDate": "2025-02",
+                "endDate": "2025-04",
+                "description": "intenrship",
+                "technologies": [
+                    "HTML",
+                    "CSS"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "intern",
+                "description": "internship",
+                "technologies": [
+                    "HTML",
+                    "CSS"
+                ],
+                "link": "https://github.com/roshh12",
+                "startDate": "2025-02",
+                "endDate": "2025-04"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "reading",
+                "description": "hobby",
+                "startDate": "2025-02",
+                "endDate": "2025-04"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://www.linkedin.com/in/roshni-reju-b215a8225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "github": "",
+            "portfolio": ""
+        }
+    },
+    {
+        "personalInfo": {
+            "name": "Aarav Sharma",
+            "email": "aarav.sharma92@gmail.com",
+            "phone": "+919876543210",
+            "location": "Mumbai",
+            "bio": "Aspiring software engineer with a keen interest in AI and data science.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "Mumbai Institute of Technology",
+                "degree": "B.E.",
+                "field": "Artificial Intelligence",
+                "startDate": "2019-08",
+                "endDate": "2023-05",
+                "grade": "8.7 CGPA",
+                "activities": "AI research group member"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "SQL"
+                ]
+            },
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Pandas"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Machine Learning Intern",
+                "company": "DataTech Solutions",
+                "location": "Mumbai",
+                "startDate": "2022-05",
+                "endDate": "2022-11",
+                "description": "Developed predictive models for customer behavior analysis.",
+                "technologies": [
+                    "Python",
+                    "Pandas",
+                    "TensorFlow"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Customer Churn Prediction",
+                "description": "Built an ML model to predict customer churn in telecom industry.",
+                "technologies": [
+                    "Python",
+                    "Scikit-learn",
+                    "Flask"
+                ],
+                "link": "https://github.com/aaravsharma/churn-prediction",
+                "startDate": "2022-08",
+                "endDate": "2022-10"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "AI Club President",
+                "description": "Led AI workshops and hackathons for students.",
+                "startDate": "2021-07",
+                "endDate": "2023-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/aaravsharma",
+            "github": "https://github.com/aaravsharma",
+            "portfolio": "https://aaravsharma.github.io"
+        },
+        "lastUpdated": "2024-01-21T12:00:00Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Riya Patel",
+            "email": "riya.patel94@gmail.com",
+            "phone": "+919865432109",
+            "location": "Ahmedabad",
+            "bio": "Software developer with a passion for web technologies and UI/UX.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "Ahmedabad University",
+                "degree": "B.Tech",
+                "field": "Computer Science",
+                "startDate": "2018-07",
+                "endDate": "2022-06",
+                "grade": "9.0 CGPA",
+                "activities": "Web development club member"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "JavaScript",
+                    "HTML",
+                    "CSS",
+                    "Python"
+                ]
+            },
+            {
+                "category": "Web Development",
+                "items": [
+                    "React",
+                    "Node.js",
+                    "Express"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Frontend Developer Intern",
+                "company": "WebNest Solutions",
+                "location": "Ahmedabad",
+                "startDate": "2021-06",
+                "endDate": "2021-12",
+                "description": "Designed responsive web applications and improved UI performance.",
+                "technologies": [
+                    "React",
+                    "CSS",
+                    "JavaScript"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "E-Commerce Website",
+                "description": "Built a full-stack e-commerce site with product recommendations.",
+                "technologies": [
+                    "React",
+                    "MongoDB",
+                    "Node.js"
+                ],
+                "link": "https://github.com/riyapatel/e-commerce",
+                "startDate": "2021-09",
+                "endDate": "2021-11"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Web Development Club Member",
+                "description": "Organized coding workshops and UI/UX sessions.",
+                "startDate": "2020-01",
+                "endDate": "2022-06"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/riyapatel",
+            "github": "https://github.com/riyapatel",
+            "portfolio": "https://riyapatel.dev"
+        },
+        "lastUpdated": "2024-01-21T12:00:00Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Vikram Iyer",
+            "email": "vikram.iyer99@gmail.com",
+            "phone": "+919854321098",
+            "location": "Bangalore",
+            "bio": "AI and cloud computing enthusiast, eager to work on scalable solutions.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "Indian Institute of Technology, Bangalore",
+                "degree": "B.Tech",
+                "field": "Cloud Computing & AI",
+                "startDate": "2019-08",
+                "endDate": "2023-05",
+                "grade": "8.9 CGPA",
+                "activities": "Cloud computing research group"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Azure",
+                    "Google Cloud"
+                ]
+            },
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "PyTorch",
+                    "Keras",
+                    "BigQuery"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Cloud Engineer Intern",
+                "company": "CloudNova",
+                "location": "Bangalore",
+                "startDate": "2022-05",
+                "endDate": "2022-10",
+                "description": "Deployed AI models on cloud platforms for scalable performance.",
+                "technologies": [
+                    "AWS Lambda",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Scalable AI Deployment",
+                "description": "Created an AI model deployment pipeline using Kubernetes.",
+                "technologies": [
+                    "Docker",
+                    "AWS",
+                    "TensorFlow"
+                ],
+                "link": "https://github.com/vikramiyer/ai-deploy",
+                "startDate": "2022-06",
+                "endDate": "2022-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Cloud Computing Research",
+                "description": "Published research papers on cloud-based AI models.",
+                "startDate": "2021-08",
+                "endDate": "2023-05"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/vikramiyer",
+            "github": "https://github.com/vikramiyer",
+            "portfolio": "https://vikramiyer.cloud"
+        },
+        "lastUpdated": "2024-01-21T12:00:00Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Ishaan Mehta",
+            "email": "ishaan.mehta@gmail.com",
+            "phone": "+918525750060",
+            "location": "Chennai",
+            "bio": "A passionate Data Science enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Artificial Intelligence",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.19 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "SQL",
+                    "Java"
+                ]
+            },
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Google Cloud",
+                    "Azure"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Chennai",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Java",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/ishaanmehta/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/ishaanmehta",
+            "github": "https://github.com/ishaanmehta",
+            "portfolio": "https://ishaanmehta.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269491Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Aarav Verma",
+            "email": "aarav.verma@gmail.com",
+            "phone": "+919108311200",
+            "location": "Hyderabad",
+            "bio": "A passionate Data Science enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Computer Science",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.78 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Web Development",
+                "items": [
+                    "React",
+                    "Node.js",
+                    "Django",
+                    "Flask"
+                ]
+            },
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "SQL",
+                    "Java"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Hyderabad",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Node.js",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/aaravverma/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/aaravverma",
+            "github": "https://github.com/aaravverma",
+            "portfolio": "https://aaravverma.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269517Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Ishaan Das",
+            "email": "ishaan.das@gmail.com",
+            "phone": "+919810188901",
+            "location": "Delhi",
+            "bio": "A passionate Cloud Computing enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Cybersecurity",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.60 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "SQL",
+                    "Java"
+                ]
+            },
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Google Cloud",
+                    "Azure"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Delhi",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Java",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/ishaandas/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/ishaandas",
+            "github": "https://github.com/ishaandas",
+            "portfolio": "https://ishaandas.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269534Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Anaya Verma",
+            "email": "anaya.verma@gmail.com",
+            "phone": "+918589084819",
+            "location": "Chennai",
+            "bio": "A passionate Data Science enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Cybersecurity",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "9.40 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "SQL",
+                    "Java"
+                ]
+            },
+            {
+                "category": "Web Development",
+                "items": [
+                    "React",
+                    "Node.js",
+                    "Django",
+                    "Flask"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Chennai",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Node.js",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/anayaverma/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/anayaverma",
+            "github": "https://github.com/anayaverma",
+            "portfolio": "https://anayaverma.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269551Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Riya Verma",
+            "email": "riya.verma@gmail.com",
+            "phone": "+917469011145",
+            "location": "Delhi",
+            "bio": "A passionate Cybersecurity enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Artificial Intelligence",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.15 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Web Development",
+                "items": [
+                    "React",
+                    "Node.js",
+                    "Django",
+                    "Flask"
+                ]
+            },
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Google Cloud",
+                    "Azure"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Delhi",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Python",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/riyaverma/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/riyaverma",
+            "github": "https://github.com/riyaverma",
+            "portfolio": "https://riyaverma.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269565Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Arjun Nair",
+            "email": "arjun.nair@gmail.com",
+            "phone": "+917051487911",
+            "location": "Chennai",
+            "bio": "A passionate Cloud Computing enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Computer Science",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.85 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "SQL",
+                    "Java"
+                ]
+            },
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Google Cloud",
+                    "Azure"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Chennai",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Python",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/arjunnair/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/arjunnair",
+            "github": "https://github.com/arjunnair",
+            "portfolio": "https://arjunnair.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269596Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Kabir Das",
+            "email": "kabir.das@gmail.com",
+            "phone": "+918071157786",
+            "location": "Chennai",
+            "bio": "A passionate Cloud Computing enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Computer Science",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.35 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "SQL",
+                    "Java"
+                ]
+            },
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Google Cloud",
+                    "Azure"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Chennai",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Java",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/kabirdas/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/kabirdas",
+            "github": "https://github.com/kabirdas",
+            "portfolio": "https://kabirdas.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269619Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Vivaan Chopra",
+            "email": "vivaan.chopra@gmail.com",
+            "phone": "+919813229681",
+            "location": "Mumbai",
+            "bio": "A passionate Cloud Computing enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Artificial Intelligence",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.25 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Google Cloud",
+                    "Azure"
+                ]
+            },
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "SQL",
+                    "Java"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Mumbai",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Java",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/vivaanchopra/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/vivaanchopra",
+            "github": "https://github.com/vivaanchopra",
+            "portfolio": "https://vivaanchopra.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269647Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Anaya Singh",
+            "email": "anaya.singh@gmail.com",
+            "phone": "+919350287121",
+            "location": "Bangalore",
+            "bio": "A passionate Cloud Computing enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Data Science",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.55 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Web Development",
+                "items": [
+                    "React",
+                    "Node.js",
+                    "Django",
+                    "Flask"
+                ]
+            },
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Pandas",
+                    "PyTorch"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Bangalore",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Python",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/anayasingh/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/anayasingh",
+            "github": "https://github.com/anayasingh",
+            "portfolio": "https://anayasingh.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269668Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Vivaan Singh",
+            "email": "vivaan.singh@gmail.com",
+            "phone": "+917334690400",
+            "location": "Delhi",
+            "bio": "A passionate Full-Stack Development enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Cybersecurity",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.97 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Web Development",
+                "items": [
+                    "React",
+                    "Node.js",
+                    "Django",
+                    "Flask"
+                ]
+            },
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Google Cloud",
+                    "Azure"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Delhi",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Java",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/vivaansingh/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/vivaansingh",
+            "github": "https://github.com/vivaansingh",
+            "portfolio": "https://vivaansingh.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269698Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Ishaan Iyer",
+            "email": "ishaan.iyer@gmail.com",
+            "phone": "+919265925772",
+            "location": "Pune",
+            "bio": "A passionate Cybersecurity enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Artificial Intelligence",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.30 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Google Cloud",
+                    "Azure"
+                ]
+            },
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "SQL",
+                    "Java"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Pune",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Node.js",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/ishaaniyer/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/ishaaniyer",
+            "github": "https://github.com/ishaaniyer",
+            "portfolio": "https://ishaaniyer.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269719Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Kabir Nair",
+            "email": "kabir.nair@gmail.com",
+            "phone": "+919436336078",
+            "location": "Delhi",
+            "bio": "A passionate Cybersecurity enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Artificial Intelligence",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "7.55 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Pandas",
+                    "PyTorch"
+                ]
+            },
+            {
+                "category": "Web Development",
+                "items": [
+                    "React",
+                    "Node.js",
+                    "Django",
+                    "Flask"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Delhi",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Java",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/kabirnair/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/kabirnair",
+            "github": "https://github.com/kabirnair",
+            "portfolio": "https://kabirnair.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269735Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Anaya Sharma",
+            "email": "anaya.sharma@gmail.com",
+            "phone": "+919236088004",
+            "location": "Chennai",
+            "bio": "A passionate Data Science enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Artificial Intelligence",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.69 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Web Development",
+                "items": [
+                    "React",
+                    "Node.js",
+                    "Django",
+                    "Flask"
+                ]
+            },
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Pandas",
+                    "PyTorch"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Chennai",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Java",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/anayasharma/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/anayasharma",
+            "github": "https://github.com/anayasharma",
+            "portfolio": "https://anayasharma.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269753Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Aarav Singh",
+            "email": "aarav.singh@gmail.com",
+            "phone": "+918217526674",
+            "location": "Pune",
+            "bio": "A passionate Full-Stack Development enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Cybersecurity",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.16 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "SQL",
+                    "Java"
+                ]
+            },
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Pandas",
+                    "PyTorch"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Pune",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Java",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/aaravsingh/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/aaravsingh",
+            "github": "https://github.com/aaravsingh",
+            "portfolio": "https://aaravsingh.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269766Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Anaya Nair",
+            "email": "anaya.nair@gmail.com",
+            "phone": "+918345861840",
+            "location": "Pune",
+            "bio": "A passionate Cloud Computing enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Computer Science",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.38 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Google Cloud",
+                    "Azure"
+                ]
+            },
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Pandas",
+                    "PyTorch"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Pune",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Python",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/anayanair/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/anayanair",
+            "github": "https://github.com/anayanair",
+            "portfolio": "https://anayanair.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269778Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Neha Mehta",
+            "email": "neha.mehta@gmail.com",
+            "phone": "+918626920511",
+            "location": "Bangalore",
+            "bio": "A passionate Cybersecurity enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Artificial Intelligence",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.03 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Web Development",
+                "items": [
+                    "React",
+                    "Node.js",
+                    "Django",
+                    "Flask"
+                ]
+            },
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Google Cloud",
+                    "Azure"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Bangalore",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Python",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/nehamehta/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/nehamehta",
+            "github": "https://github.com/nehamehta",
+            "portfolio": "https://nehamehta.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269791Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Vivaan Iyer",
+            "email": "vivaan.iyer@gmail.com",
+            "phone": "+917508464082",
+            "location": "Mumbai",
+            "bio": "A passionate Cybersecurity enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Data Science",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "9.36 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Pandas",
+                    "PyTorch"
+                ]
+            },
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Google Cloud",
+                    "Azure"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Mumbai",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Java",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/vivaaniyer/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/vivaaniyer",
+            "github": "https://github.com/vivaaniyer",
+            "portfolio": "https://vivaaniyer.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269817Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Tanvi Chopra",
+            "email": "tanvi.chopra@gmail.com",
+            "phone": "+918699597093",
+            "location": "Pune",
+            "bio": "A passionate Full-Stack Development enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Computer Science",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "9.28 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Web Development",
+                "items": [
+                    "React",
+                    "Node.js",
+                    "Django",
+                    "Flask"
+                ]
+            },
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "SQL",
+                    "Java"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Pune",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Node.js",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/tanvichopra/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/tanvichopra",
+            "github": "https://github.com/tanvichopra",
+            "portfolio": "https://tanvichopra.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269829Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Tanvi Singh",
+            "email": "tanvi.singh@gmail.com",
+            "phone": "+917741726770",
+            "location": "Pune",
+            "bio": "A passionate Cybersecurity enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Cybersecurity",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "9.44 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Web Development",
+                "items": [
+                    "React",
+                    "Node.js",
+                    "Django",
+                    "Flask"
+                ]
+            },
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Pandas",
+                    "PyTorch"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Pune",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Python",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/tanvisingh/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/tanvisingh",
+            "github": "https://github.com/tanvisingh",
+            "portfolio": "https://tanvisingh.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269843Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Arjun Das",
+            "email": "arjun.das@gmail.com",
+            "phone": "+917916515876",
+            "location": "Delhi",
+            "bio": "A passionate Data Science enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Computer Science",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.02 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Web Development",
+                "items": [
+                    "React",
+                    "Node.js",
+                    "Django",
+                    "Flask"
+                ]
+            },
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "SQL",
+                    "Java"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Delhi",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Java",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/arjundas/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/arjundas",
+            "github": "https://github.com/arjundas",
+            "portfolio": "https://arjundas.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269884Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Neha Reddy",
+            "email": "neha.reddy@gmail.com",
+            "phone": "+919147253127",
+            "location": "Bangalore",
+            "bio": "A passionate Cloud Computing enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Cybersecurity",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "7.85 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Pandas",
+                    "PyTorch"
+                ]
+            },
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Google Cloud",
+                    "Azure"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Bangalore",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Python",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/nehareddy/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/nehareddy",
+            "github": "https://github.com/nehareddy",
+            "portfolio": "https://nehareddy.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269897Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Anaya Patel",
+            "email": "anaya.patel@gmail.com",
+            "phone": "+917332951235",
+            "location": "Chennai",
+            "bio": "A passionate Full-Stack Development enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Cybersecurity",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.32 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Web Development",
+                "items": [
+                    "React",
+                    "Node.js",
+                    "Django",
+                    "Flask"
+                ]
+            },
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "SQL",
+                    "Java"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Chennai",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Java",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/anayapatel/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/anayapatel",
+            "github": "https://github.com/anayapatel",
+            "portfolio": "https://anayapatel.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269912Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Vivaan Das",
+            "email": "vivaan.das@gmail.com",
+            "phone": "+919589576119",
+            "location": "Delhi",
+            "bio": "A passionate Full-Stack Development enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Data Science",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "7.57 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Pandas",
+                    "PyTorch"
+                ]
+            },
+            {
+                "category": "Web Development",
+                "items": [
+                    "React",
+                    "Node.js",
+                    "Django",
+                    "Flask"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Delhi",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Node.js",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/vivaandas/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/vivaandas",
+            "github": "https://github.com/vivaandas",
+            "portfolio": "https://vivaandas.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269930Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Vihaan Reddy",
+            "email": "vihaan.reddy@gmail.com",
+            "phone": "+919178771468",
+            "location": "Pune",
+            "bio": "A passionate Data Science enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Computer Science",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.70 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Web Development",
+                "items": [
+                    "React",
+                    "Node.js",
+                    "Django",
+                    "Flask"
+                ]
+            },
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Pandas",
+                    "PyTorch"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Pune",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Python",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/vihaanreddy/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/vihaanreddy",
+            "github": "https://github.com/vihaanreddy",
+            "portfolio": "https://vihaanreddy.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269948Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Neha Nair",
+            "email": "neha.nair@gmail.com",
+            "phone": "+917778827483",
+            "location": "Hyderabad",
+            "bio": "A passionate Full-Stack Development enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Computer Science",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "9.17 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Google Cloud",
+                    "Azure"
+                ]
+            },
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Pandas",
+                    "PyTorch"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Hyderabad",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Python",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/nehanair/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/nehanair",
+            "github": "https://github.com/nehanair",
+            "portfolio": "https://nehanair.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269971Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Anaya Iyer",
+            "email": "anaya.iyer@gmail.com",
+            "phone": "+917402527282",
+            "location": "Hyderabad",
+            "bio": "A passionate Cloud Computing enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Artificial Intelligence",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "7.79 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Web Development",
+                "items": [
+                    "React",
+                    "Node.js",
+                    "Django",
+                    "Flask"
+                ]
+            },
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Google Cloud",
+                    "Azure"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Hyderabad",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Node.js",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/anayaiyer/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/anayaiyer",
+            "github": "https://github.com/anayaiyer",
+            "portfolio": "https://anayaiyer.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.269994Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Aarav Das",
+            "email": "aarav.das@gmail.com",
+            "phone": "+917566243073",
+            "location": "Delhi",
+            "bio": "A passionate Cloud Computing enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Cybersecurity",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.10 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Web Development",
+                "items": [
+                    "React",
+                    "Node.js",
+                    "Django",
+                    "Flask"
+                ]
+            },
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Pandas",
+                    "PyTorch"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Delhi",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Python",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/aaravdas/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/aaravdas",
+            "github": "https://github.com/aaravdas",
+            "portfolio": "https://aaravdas.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.270006Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Riya Sharma",
+            "email": "riya.sharma@gmail.com",
+            "phone": "+919656226748",
+            "location": "Pune",
+            "bio": "A passionate Data Science enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Artificial Intelligence",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "9.23 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Pandas",
+                    "PyTorch"
+                ]
+            },
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Google Cloud",
+                    "Azure"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Pune",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Node.js",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/riyasharma/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/riyasharma",
+            "github": "https://github.com/riyasharma",
+            "portfolio": "https://riyasharma.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.270038Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Neha Sharma",
+            "email": "neha.sharma@gmail.com",
+            "phone": "+919935387594",
+            "location": "Mumbai",
+            "bio": "A passionate Full-Stack Development enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Cybersecurity",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.11 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "SQL",
+                    "Java"
+                ]
+            },
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Pandas",
+                    "PyTorch"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Mumbai",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Node.js",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/nehasharma/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/nehasharma",
+            "github": "https://github.com/nehasharma",
+            "portfolio": "https://nehasharma.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.270053Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Vivaan Sharma",
+            "email": "vivaan.sharma@gmail.com",
+            "phone": "+919655972259",
+            "location": "Bangalore",
+            "bio": "A passionate Cybersecurity enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Artificial Intelligence",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "7.53 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Google Cloud",
+                    "Azure"
+                ]
+            },
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "SQL",
+                    "Java"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Bangalore",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Java",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/vivaansharma/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/vivaansharma",
+            "github": "https://github.com/vivaansharma",
+            "portfolio": "https://vivaansharma.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.270070Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Vihaan Iyer",
+            "email": "vihaan.iyer@gmail.com",
+            "phone": "+917559482836",
+            "location": "Hyderabad",
+            "bio": "A passionate Full-Stack Development enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Artificial Intelligence",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.98 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Pandas",
+                    "PyTorch"
+                ]
+            },
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Google Cloud",
+                    "Azure"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Hyderabad",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Java",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/vihaaniyer/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/vihaaniyer",
+            "github": "https://github.com/vihaaniyer",
+            "portfolio": "https://vihaaniyer.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.270158Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Arjun Chopra",
+            "email": "arjun.chopra@gmail.com",
+            "phone": "+918404631604",
+            "location": "Chennai",
+            "bio": "A passionate Full-Stack Development enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Data Science",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.08 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "SQL",
+                    "Java"
+                ]
+            },
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Google Cloud",
+                    "Azure"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Chennai",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Python",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/arjunchopra/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/arjunchopra",
+            "github": "https://github.com/arjunchopra",
+            "portfolio": "https://arjunchopra.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.270170Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Arjun Iyer",
+            "email": "arjun.iyer@gmail.com",
+            "phone": "+918928495919",
+            "location": "Mumbai",
+            "bio": "A passionate Cloud Computing enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Cybersecurity",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.45 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Pandas",
+                    "PyTorch"
+                ]
+            },
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "SQL",
+                    "Java"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Mumbai",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Node.js",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/arjuniyer/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/arjuniyer",
+            "github": "https://github.com/arjuniyer",
+            "portfolio": "https://arjuniyer.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.270193Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Tanvi Reddy",
+            "email": "tanvi.reddy@gmail.com",
+            "phone": "+918916308076",
+            "location": "Hyderabad",
+            "bio": "A passionate AI enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Computer Science",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.15 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "SQL",
+                    "Java"
+                ]
+            },
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Pandas",
+                    "PyTorch"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Hyderabad",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Java",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/tanvireddy/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/tanvireddy",
+            "github": "https://github.com/tanvireddy",
+            "portfolio": "https://tanvireddy.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.270216Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Anaya Das",
+            "email": "anaya.das@gmail.com",
+            "phone": "+919880061692",
+            "location": "Delhi",
+            "bio": "A passionate AI enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Artificial Intelligence",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "9.44 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Pandas",
+                    "PyTorch"
+                ]
+            },
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Google Cloud",
+                    "Azure"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Delhi",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Node.js",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/anayadas/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/anayadas",
+            "github": "https://github.com/anayadas",
+            "portfolio": "https://anayadas.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.270229Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Neha Verma",
+            "email": "neha.verma@gmail.com",
+            "phone": "+917656536306",
+            "location": "Pune",
+            "bio": "A passionate Cybersecurity enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Cybersecurity",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "9.11 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Pandas",
+                    "PyTorch"
+                ]
+            },
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "SQL",
+                    "Java"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Pune",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Node.js",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/nehaverma/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/nehaverma",
+            "github": "https://github.com/nehaverma",
+            "portfolio": "https://nehaverma.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.270240Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Ishaan Patel",
+            "email": "ishaan.patel@gmail.com",
+            "phone": "+918066587891",
+            "location": "Chennai",
+            "bio": "A passionate Cloud Computing enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Data Science",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "9.03 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "TensorFlow",
+                    "Scikit-learn",
+                    "Pandas",
+                    "PyTorch"
+                ]
+            },
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Google Cloud",
+                    "Azure"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Chennai",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Java",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/ishaanpatel/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/ishaanpatel",
+            "github": "https://github.com/ishaanpatel",
+            "portfolio": "https://ishaanpatel.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.270263Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Aarav Patel",
+            "email": "aarav.patel@gmail.com",
+            "phone": "+917340053138",
+            "location": "Delhi",
+            "bio": "A passionate Data Science enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Artificial Intelligence",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.89 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Web Development",
+                "items": [
+                    "React",
+                    "Node.js",
+                    "Django",
+                    "Flask"
+                ]
+            },
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "SQL",
+                    "Java"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Delhi",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Node.js",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/aaravpatel/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/aaravpatel",
+            "github": "https://github.com/aaravpatel",
+            "portfolio": "https://aaravpatel.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.270274Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Tanvi Sharma",
+            "email": "tanvi.sharma@gmail.com",
+            "phone": "+919972353282",
+            "location": "Hyderabad",
+            "bio": "A passionate Cybersecurity enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Artificial Intelligence",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "7.54 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "SQL",
+                    "Java"
+                ]
+            },
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Google Cloud",
+                    "Azure"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Hyderabad",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Python",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/tanvisharma/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/tanvisharma",
+            "github": "https://github.com/tanvisharma",
+            "portfolio": "https://tanvisharma.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.270286Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Arjun Sharma",
+            "email": "arjun.sharma@gmail.com",
+            "phone": "+919896829378",
+            "location": "Chennai",
+            "bio": "A passionate Full-Stack Development enthusiast eager to innovate and solve real-world challenges.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Computer Science",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "9.18 CGPA",
+                "activities": "Member of coding club, Hackathon participant"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Web Development",
+                "items": [
+                    "React",
+                    "Node.js",
+                    "Django",
+                    "Flask"
+                ]
+            },
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "SQL",
+                    "Java"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Software Development Intern",
+                "company": "Tech Solutions Pvt Ltd",
+                "location": "Chennai",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Worked on building scalable applications and deploying ML models.",
+                "technologies": [
+                    "Python",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Automated Resume Screener",
+                "description": "Developed an AI-based resume screening tool to filter job applications.",
+                "technologies": [
+                    "Python",
+                    "NLP",
+                    "Flask"
+                ],
+                "link": "https://github.com/arjunsharma/resume-screener",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Club President",
+                "description": "Organized coding competitions and mentored junior students.",
+                "startDate": "2022-07",
+                "endDate": "2024-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/arjunsharma",
+            "github": "https://github.com/arjunsharma",
+            "portfolio": "https://arjunsharma.github.io"
+        },
+        "lastUpdated": "2025-03-22T17:14:15.270298Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Aryan Sharma",
+            "email": "aryansharma123@gmail.com",
+            "phone": "+919876543210",
+            "location": "Bangalore",
+            "bio": "Aspiring software engineer with a passion for backend development",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Computer Science",
+                "startDate": "2020-09",
+                "endDate": "2024-06",
+                "grade": "8.8 CGPA",
+                "activities": "Member of AI Club"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C++",
+                    "Go"
+                ]
+            },
+            {
+                "category": "Databases",
+                "items": [
+                    "MongoDB",
+                    "PostgreSQL",
+                    "Redis"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Backend Developer Intern",
+                "company": "InnovateTech",
+                "location": "Bangalore",
+                "startDate": "2023-06",
+                "endDate": "2023-12",
+                "description": "Worked on scalable microservices architecture",
+                "technologies": [
+                    "Go",
+                    "PostgreSQL",
+                    "Docker"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Smart Home Automation",
+                "description": "Developed an IoT-based automation system",
+                "technologies": [
+                    "Python",
+                    "Raspberry Pi",
+                    "MQTT"
+                ],
+                "link": "https://github.com/aryansharma/smart-home",
+                "startDate": "2023-02",
+                "endDate": "2023-05"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "AI Club Member",
+                "description": "Conducted workshops on machine learning",
+                "startDate": "2022-08",
+                "endDate": "2023-08"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/aryansharma",
+            "github": "https://github.com/aryansharma",
+            "portfolio": "https://aryansharma.dev"
+        },
+        "lastUpdated": "2024-01-20T10:30:00Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Neha Iyer",
+            "email": "nehaiyer456@gmail.com",
+            "phone": "+918765432109",
+            "location": "Bangalore",
+            "bio": "Frontend developer passionate about UI/UX design",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Computer Science",
+                "startDate": "2020-09",
+                "endDate": "2024-06",
+                "grade": "8.9 CGPA",
+                "activities": "Graphic Design Club"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Web Development",
+                "items": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ]
+            },
+            {
+                "category": "UI/UX Tools",
+                "items": [
+                    "Figma",
+                    "Adobe XD",
+                    "Sketch"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Frontend Developer Intern",
+                "company": "Creative Solutions",
+                "location": "Bangalore",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Designed and developed interactive web applications",
+                "technologies": [
+                    "React",
+                    "Tailwind CSS",
+                    "Figma"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Portfolio Website",
+                "description": "Built a responsive portfolio website",
+                "technologies": [
+                    "React",
+                    "Framer Motion",
+                    "Firebase"
+                ],
+                "link": "https://github.com/nehaiyer/portfolio",
+                "startDate": "2023-06",
+                "endDate": "2023-07"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Graphic Design Club",
+                "description": "Led design workshops for beginners",
+                "startDate": "2022-07",
+                "endDate": "2023-07"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/nehaiyer",
+            "github": "https://github.com/nehaiyer",
+            "portfolio": "https://nehaiyer.dev"
+        },
+        "lastUpdated": "2024-01-20T10:30:00Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Aditya Rao",
+            "email": "aditya.rao@gmail.com",
+            "phone": "+919876543210",
+            "location": "Bengaluru",
+            "bio": "Passionate about backend development and cloud computing. Interested in building scalable microservices and distributed systems.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Computer Science",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.7 CGPA",
+                "activities": "Member of Cloud Computing Club"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "Java",
+                    "Go"
+                ]
+            },
+            {
+                "category": "Backend Technologies",
+                "items": [
+                    "Django",
+                    "Flask",
+                    "Spring Boot"
+                ]
+            },
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS",
+                    "Google Cloud",
+                    "Docker",
+                    "Kubernetes"
+                ]
+            },
+            {
+                "category": "Databases",
+                "items": [
+                    "MongoDB",
+                    "PostgreSQL",
+                    "Redis"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Backend Developer Intern",
+                "company": "TechNova Solutions",
+                "location": "Bengaluru",
+                "startDate": "2023-06",
+                "endDate": "2023-12",
+                "description": "Developed REST APIs and implemented caching mechanisms for improved performance",
+                "technologies": [
+                    "Python",
+                    "Django",
+                    "Redis",
+                    "AWS"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "E-commerce Backend",
+                "description": "Built a scalable e-commerce backend with payment integration and inventory management",
+                "technologies": [
+                    "Python",
+                    "Django",
+                    "PostgreSQL",
+                    "Redis"
+                ],
+                "link": "https://github.com/adityarao/ecommerce-backend",
+                "startDate": "2023-01",
+                "endDate": "2023-03"
+            },
+            {
+                "title": "Microservices Architecture",
+                "description": "Implemented a proof-of-concept microservices architecture with Docker and Kubernetes",
+                "technologies": [
+                    "Go",
+                    "Docker",
+                    "Kubernetes",
+                    "gRPC"
+                ],
+                "link": "https://github.com/adityarao/microservices-poc",
+                "startDate": "2022-09",
+                "endDate": "2022-12"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Cloud Computing Club",
+                "description": "Organized workshops on containerization and cloud deployment",
+                "startDate": "2022-08",
+                "endDate": "2023-08"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/adityarao",
+            "github": "https://github.com/adityarao",
+            "portfolio": "https://adityarao.dev"
+        },
+        "lastUpdated": "2024-01-15T11:30:00Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Priya Sharma",
+            "email": "priya.sharma@gmail.com",
+            "phone": "+919876543211",
+            "location": "Bengaluru",
+            "bio": "Frontend developer enthusiastic about creating beautiful and responsive user interfaces. Interested in UI/UX design and accessibility.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Computer Science",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.9 CGPA",
+                "activities": "UI/UX Design Club"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Frontend Technologies",
+                "items": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "TypeScript"
+                ]
+            },
+            {
+                "category": "Frameworks",
+                "items": [
+                    "React",
+                    "Angular",
+                    "Next.js"
+                ]
+            },
+            {
+                "category": "UI/UX Tools",
+                "items": [
+                    "Figma",
+                    "Adobe XD",
+                    "Sketch"
+                ]
+            },
+            {
+                "category": "Testing",
+                "items": [
+                    "Jest",
+                    "Cypress"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Frontend Developer Intern",
+                "company": "WebCraft Studios",
+                "location": "Bengaluru",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Developed responsive web applications and implemented design systems",
+                "technologies": [
+                    "React",
+                    "TypeScript",
+                    "Tailwind CSS",
+                    "Figma"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "E-learning Platform",
+                "description": "Built a responsive e-learning platform with interactive course modules",
+                "technologies": [
+                    "React",
+                    "Node.js",
+                    "MongoDB",
+                    "Figma"
+                ],
+                "link": "https://github.com/priyasharma/elearning-platform",
+                "startDate": "2023-02",
+                "endDate": "2023-04"
+            },
+            {
+                "title": "Portfolio Website",
+                "description": "Designed and developed a personal portfolio website with animations",
+                "technologies": [
+                    "Next.js",
+                    "Framer Motion",
+                    "Tailwind CSS"
+                ],
+                "link": "https://github.com/priyasharma/portfolio",
+                "startDate": "2022-11",
+                "endDate": "2022-12"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "UI/UX Design Club",
+                "description": "Conducted workshops on design principles and prototyping",
+                "startDate": "2021-08",
+                "endDate": "2023-08"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/priyasharma",
+            "github": "https://github.com/priyasharma",
+            "portfolio": "https://priyasharma.dev"
+        },
+        "lastUpdated": "2024-01-18T09:15:00Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Rahul Verma",
+            "email": "rahul.verma@gmail.com",
+            "phone": "+919876543212",
+            "location": "Bengaluru",
+            "bio": "AI and Machine Learning enthusiast passionate about deep learning and computer vision. Interested in research and practical applications of AI.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Artificial Intelligence",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "9.1 CGPA",
+                "activities": "AI Research Group"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "R",
+                    "C++"
+                ]
+            },
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "TensorFlow",
+                    "PyTorch",
+                    "Scikit-learn",
+                    "Keras"
+                ]
+            },
+            {
+                "category": "Data Processing",
+                "items": [
+                    "Pandas",
+                    "NumPy",
+                    "OpenCV"
+                ]
+            },
+            {
+                "category": "Cloud Platforms",
+                "items": [
+                    "AWS SageMaker",
+                    "Google Colab"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "AI Research Intern",
+                "company": "DeepMind Labs",
+                "location": "Bengaluru",
+                "startDate": "2023-06",
+                "endDate": "2023-12",
+                "description": "Researched and implemented novel computer vision algorithms",
+                "technologies": [
+                    "Python",
+                    "TensorFlow",
+                    "OpenCV",
+                    "AWS SageMaker"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Facial Recognition System",
+                "description": "Developed a real-time facial recognition system using deep learning",
+                "technologies": [
+                    "Python",
+                    "OpenCV",
+                    "TensorFlow",
+                    "Flask"
+                ],
+                "link": "https://github.com/rahulverma/facial-recognition",
+                "startDate": "2023-01",
+                "endDate": "2023-04"
+            },
+            {
+                "title": "Sentiment Analysis Tool",
+                "description": "Built a sentiment analysis model for product reviews",
+                "technologies": [
+                    "Python",
+                    "NLTK",
+                    "Scikit-learn",
+                    "Flask"
+                ],
+                "link": "https://github.com/rahulverma/sentiment-analysis",
+                "startDate": "2022-09",
+                "endDate": "2022-12"
+            },
+            {
+                "title": "Medical Image Classification",
+                "description": "Implemented a CNN for classifying medical images",
+                "technologies": [
+                    "Python",
+                    "TensorFlow",
+                    "Keras",
+                    "NumPy"
+                ],
+                "link": "https://github.com/rahulverma/medical-image-classification",
+                "startDate": "2022-05",
+                "endDate": "2022-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "AI Research Group",
+                "description": "Published papers on deep learning applications in healthcare",
+                "startDate": "2021-08",
+                "endDate": "2023-08"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/rahulverma",
+            "github": "https://github.com/rahulverma",
+            "portfolio": "https://rahulverma.ai"
+        },
+        "lastUpdated": "2024-01-20T14:20:00Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Ananya Patel",
+            "email": "ananya.patel@gmail.com",
+            "phone": "+919876543213",
+            "location": "Bengaluru",
+            "bio": "Full-stack developer passionate about building end-to-end web applications. Interested in both frontend and backend technologies.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Computer Science",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.8 CGPA",
+                "activities": "Web Development Club"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Frontend Technologies",
+                "items": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "React"
+                ]
+            },
+            {
+                "category": "Backend Technologies",
+                "items": [
+                    "Node.js",
+                    "Express",
+                    "Django"
+                ]
+            },
+            {
+                "category": "Databases",
+                "items": [
+                    "MongoDB",
+                    "PostgreSQL"
+                ]
+            },
+            {
+                "category": "DevOps",
+                "items": [
+                    "Docker",
+                    "AWS",
+                    "CI/CD"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Full-stack Developer Intern",
+                "company": "Digital Solutions",
+                "location": "Bengaluru",
+                "startDate": "2023-05",
+                "endDate": "2023-11",
+                "description": "Developed and maintained web applications using MERN stack",
+                "technologies": [
+                    "React",
+                    "Node.js",
+                    "Express",
+                    "MongoDB"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Task Management App",
+                "description": "Built a full-stack task management application with user authentication",
+                "technologies": [
+                    "React",
+                    "Node.js",
+                    "Express",
+                    "MongoDB"
+                ],
+                "link": "https://github.com/ananyapatel/task-manager",
+                "startDate": "2023-01",
+                "endDate": "2023-03"
+            },
+            {
+                "title": "E-commerce Website",
+                "description": "Developed an e-commerce platform with payment gateway integration",
+                "technologies": [
+                    "React",
+                    "Django",
+                    "PostgreSQL",
+                    "Stripe API"
+                ],
+                "link": "https://github.com/ananyapatel/ecommerce-website",
+                "startDate": "2022-09",
+                "endDate": "2022-12"
+            },
+            {
+                "title": "Blog Platform",
+                "description": "Created a blogging platform with rich text editing capabilities",
+                "technologies": [
+                    "Next.js",
+                    "Node.js",
+                    "MongoDB"
+                ],
+                "link": "https://github.com/ananyapatel/blog-platform",
+                "startDate": "2022-05",
+                "endDate": "2022-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Web Development Club",
+                "description": "Organized hackathons and coding competitions",
+                "startDate": "2021-08",
+                "endDate": "2023-08"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/ananyapatel",
+            "github": "https://github.com/ananyapatel",
+            "portfolio": "https://ananyapatel.dev"
+        },
+        "lastUpdated": "2024-01-17T16:45:00Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Vikram Joshi",
+            "email": "vikram.joshi@gmail.com",
+            "phone": "+919876543214",
+            "location": "Bengaluru",
+            "bio": "Cybersecurity enthusiast passionate about ethical hacking and network security. Interested in penetration testing and secure coding practices.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Cybersecurity",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.6 CGPA",
+                "activities": "Cybersecurity Club"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Security Tools",
+                "items": [
+                    "Metasploit",
+                    "Wireshark",
+                    "Burp Suite",
+                    "Nmap"
+                ]
+            },
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "C",
+                    "Bash"
+                ]
+            },
+            {
+                "category": "Networking",
+                "items": [
+                    "TCP/IP",
+                    "Firewalls",
+                    "VPN"
+                ]
+            },
+            {
+                "category": "Cryptography",
+                "items": [
+                    "AES",
+                    "RSA",
+                    "SSL/TLS"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Security Intern",
+                "company": "SecureNet Solutions",
+                "location": "Bengaluru",
+                "startDate": "2023-06",
+                "endDate": "2023-12",
+                "description": "Conducted vulnerability assessments and penetration tests",
+                "technologies": [
+                    "Metasploit",
+                    "Burp Suite",
+                    "Nmap",
+                    "Python"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Network Vulnerability Scanner",
+                "description": "Developed a custom network vulnerability scanner",
+                "technologies": [
+                    "Python",
+                    "Nmap",
+                    "Scapy"
+                ],
+                "link": "https://github.com/vikramjoshi/vulnerability-scanner",
+                "startDate": "2023-01",
+                "endDate": "2023-03"
+            },
+            {
+                "title": "Password Manager",
+                "description": "Built a secure password manager with encryption",
+                "technologies": [
+                    "Python",
+                    "AES",
+                    "SQLite"
+                ],
+                "link": "https://github.com/vikramjoshi/password-manager",
+                "startDate": "2022-09",
+                "endDate": "2022-12"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Cybersecurity Club",
+                "description": "Organized CTF competitions and security workshops",
+                "startDate": "2021-08",
+                "endDate": "2023-08"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/vikramjoshi",
+            "github": "https://github.com/vikramjoshi",
+            "portfolio": "https://vikramjoshi.tech"
+        },
+        "lastUpdated": "2024-01-19T13:10:00Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Sneha Reddy",
+            "email": "sneha.reddy@gmail.com",
+            "phone": "+919876543215",
+            "location": "Bengaluru",
+            "bio": "Data Science enthusiast passionate about extracting insights from data. Interested in machine learning and big data technologies.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Data Science",
+                "startDate": "2020-08",
+                "endDate": "2024-05",
+                "grade": "8.9 CGPA",
+                "activities": "Data Science Club"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "R",
+                    "SQL"
+                ]
+            },
+            {
+                "category": "Data Analysis",
+                "items": [
+                    "Pandas",
+                    "NumPy",
+                    "Matplotlib",
+                    "Seaborn"
+                ]
+            },
+            {
+                "category": "Machine Learning",
+                "items": [
+                    "Scikit-learn",
+                    "TensorFlow",
+                    "XGBoost"
+                ]
+            },
+            {
+                "category": "Big Data",
+                "items": [
+                    "Hadoop",
+                    "Spark",
+                    "Hive"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Data Science Intern",
+                "company": "Analytics Corp",
+                "location": "Bengaluru",
+                "startDate": "2023-06",
+                "endDate": "2023-12",
+                "description": "Developed predictive models and performed data analysis",
+                "technologies": [
+                    "Python",
+                    "Pandas",
+                    "Scikit-learn",
+                    "Spark"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "Customer Churn Prediction",
+                "description": "Built a model to predict customer churn for a telecom company",
+                "technologies": [
+                    "Python",
+                    "Scikit-learn",
+                    "Pandas",
+                    "Matplotlib"
+                ],
+                "link": "https://github.com/snehareddy/churn-prediction",
+                "startDate": "2023-01",
+                "endDate": "2023-03"
+            },
+            {
+                "title": "Sentiment Analysis",
+                "description": "Analyzed sentiment of product reviews using NLP techniques",
+                "technologies": [
+                    "Python",
+                    "NLTK",
+                    "Scikit-learn",
+                    "Word2Vec"
+                ],
+                "link": "https://github.com/snehareddy/sentiment-analysis",
+                "startDate": "2022-09",
+                "endDate": "2022-12"
+            },
+            {
+                "title": "Big Data Processing",
+                "description": "Processed large datasets using Hadoop and Spark",
+                "technologies": [
+                    "PySpark",
+                    "Hadoop",
+                    "Hive"
+                ],
+                "link": "https://github.com/snehareddy/big-data-processing",
+                "startDate": "2022-05",
+                "endDate": "2022-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Data Science Club",
+                "description": "Conducted workshops on data visualization and machine learning",
+                "startDate": "2021-08",
+                "endDate": "2023-08"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/snehareddy",
+            "github": "https://github.com/snehareddy",
+            "portfolio": "https://snehareddy.tech"
+        },
+        "lastUpdated": "2024-01-16T10:25:00Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Aarav Mehta",
+            "email": "aarav.mehta@cmru.edu.in",
+            "phone": "+91-9876543210",
+            "location": "Bengaluru",
+            "bio": "Computer Science student passionate about full-stack development and cloud integration.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Computer Science",
+                "startDate": "2021-08",
+                "endDate": "2025-05",
+                "grade": "8.4 CGPA",
+                "activities": "Coding club member"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "Python",
+                    "JavaScript",
+                    "Java"
+                ]
+            },
+            {
+                "category": "Web Technologies",
+                "items": [
+                    "HTML",
+                    "CSS"
+                ]
+            }
+        ],
+        "experience": [],
+        "projects": [
+            {
+                "title": "Personal Blog",
+                "description": "Built a personal blog platform using Django and Bootstrap.",
+                "technologies": [
+                    "Python",
+                    "Django",
+                    "Bootstrap"
+                ],
+                "link": "https://github.com/aaravmehta/blog",
+                "startDate": "2023-06",
+                "endDate": "2023-08"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "Coding Bootcamp Participant",
+                "description": "Participated in advanced coding bootcamp sessions on web development.",
+                "startDate": "2023-01",
+                "endDate": "2023-03"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/aaravmehta",
+            "github": "https://github.com/aaravmehta",
+            "portfolio": "https://aaravmehta.dev"
+        },
+        "lastUpdated": "2025-04-10T11:00:00Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Ishita Reddy",
+            "email": "ishita.reddy@cmru.edu.in",
+            "phone": "+91-8765432109",
+            "location": "Bengaluru",
+            "bio": "Software engineering student enthusiastic about frontend frameworks and design systems.",
+            "profileImage": "default.jpg"
+        },
+        "education": [
+            {
+                "institution": "CMR University",
+                "degree": "B.Tech",
+                "field": "Information Science",
+                "startDate": "2021-08",
+                "endDate": "2025-05",
+                "grade": "8.6 CGPA",
+                "activities": "UI/UX design club"
+            }
+        ],
+        "skills": [
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "JavaScript",
+                    "Python"
+                ]
+            },
+            {
+                "category": "Web Technologies",
+                "items": [
+                    "HTML",
+                    "CSS",
+                    "React"
+                ]
+            }
+        ],
+        "experience": [],
+        "projects": [
+            {
+                "title": "Responsive Portfolio",
+                "description": "Designed a fully responsive portfolio website using React and CSS modules.",
+                "technologies": [
+                    "React",
+                    "CSS",
+                    "JavaScript"
+                ],
+                "link": "https://github.com/ishitareddy/portfolio",
+                "startDate": "2023-03",
+                "endDate": "2023-05"
+            }
+        ],
+        "extracurriculars": [
+            {
+                "activity": "UI/UX Design Hackathon",
+                "description": "Participated and won a design hackathon organized by the university.",
+                "startDate": "2023-04",
+                "endDate": "2023-04"
+            }
+        ],
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/ishitareddy",
+            "github": "https://github.com/ishitareddy",
+            "portfolio": "https://ishitareddy.dev"
+        },
+        "lastUpdated": "2025-04-10T11:30:00Z"
+    },
+    {
+        "personalInfo": {
+            "name": "Sonika Vankadari",
+            "bio": "I am engineering graduate striving in the field of AI and Data. ",
+            "phone": "9844283766",
+            "location": "Bengaluru",
+            "email": "vankadarisonika24@gmail.com",
+            "profileImage": "vankadarisonika24gmail.com_ChatGPT_Image_Mar_29_2025_03_59_24_PM.png"
+        },
+        "education": [
+            {
+                "degree": "Bachelors of Technology ",
+                "field": "B.Tech",
+                "startYear": "2025-03",
+                "endYear": "2025-08",
+                "grade": "8.9",
+                "institution": "",
+                "activities": ""
+            }
+        ],
+        "skills": [
+            {
+                "category": "Programming Languages",
+                "items": [
+                    "python",
+                    "SQL",
+                    "JavaScript"
+                ]
+            },
+            {
+                "category": "Web Technologies",
+                "items": [
+                    "HTML",
+                    "CSS",
+                    "NodeJs",
+                    "Django"
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "title": "Data analysis intern",
+                "company": "KPMG",
+                "location": "Bengaluru",
+                "startDate": "2024-01",
+                "endDate": "2024-03",
+                "description": "Working on data and AI ",
+                "technologies": [
+                    "Python",
+                    "GenAI"
+                ]
+            }
+        ],
+        "projects": [],
+        "extracurriculars": [],
+        "socialLinks": {
+            "linkedin": "https://www.linkedin.com/in/sonikavankadari/",
+            "github": "https://github.com/sonika2403",
+            "portfolio": ""
+        }
+    }
+]

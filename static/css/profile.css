@@ -1,0 +1,708 @@
+/* Profile Container */
+.profile-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 80px; /* Added to push content below the navbar */
+}
+
+/* Loading Overlay */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.loading-overlay.active {
+    display: flex;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #bb86fc;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Hero Section */
+.profile-hero {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    background: linear-gradient(145deg, #1a1a1a, #2d2d2d);
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    margin-top: 20px; /* Added to push the hero section lower */
+}
+
+.profile-image-container {
+    position: relative;
+    width: 150px; /* Reduced size */
+    height: 150px; /* Reduced size */
+}
+
+#profileImage {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #bb86fc;
+}
+
+.edit-image-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: #bb86fc;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.edit-image-btn:hover {
+    background: #9d4edd;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info h1 {
+    color: #fff;
+    margin-bottom: 0.5rem; /* Reduced margin */
+    font-size: 1.5rem; /* Smaller font size */
+}
+
+.profile-info p {
+    color: #ccc;
+    font-size: 1rem; /* Smaller font size */
+    line-height: 1.6;
+}
+
+/* Tabs */
+.profile-tabs {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+}
+
+.tab-btn {
+    padding: 0.5rem 1rem; /* Smaller padding */
+    background: transparent;
+    border: 2px solid #bb86fc;
+    color: #bb86fc;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    font-size: 0.9rem; /* Smaller font size */
+}
+
+.tab-btn:hover,
+.tab-btn.active {
+    background: #bb86fc;
+    color: #000;
+}
+
+/* Section Cards */
+.section-card {
+    background: linear-gradient(145deg, #1a1a1a, #2d2d2d);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.card-header h2 {
+    color: #fff;
+    margin: 0;
+    font-size: 1.25rem; /* Smaller font size */
+}
+
+.edit-btn {
+    padding: 0.5rem 1rem; /* Smaller padding */
+    background: #bb86fc;
+    border: none;
+    border-radius: 20px;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem; /* Smaller font size */
+    min-width: 80px;  /* Minimum width */
+    max-width: 100px; /* Maximum width */
+    justify-content: center;
+    white-space: nowrap; /* Prevents text wrapping */
+}
+
+.edit-btn:hover {
+    background: #9d4edd;
+    color: #fff;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+.modal-content {
+    position: relative;
+    background: #1a1a1a;
+    margin: 5% auto;
+    padding: 2rem;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.close {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 0.75rem;
+    background: #2d2d2d;
+    border: 1px solid #444;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: #bb86fc;
+    outline: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-image-container {
+        width: 120px; /* Smaller size for mobile */
+        height: 120px; /* Smaller size for mobile */
+    }
+
+    .profile-tabs {
+        justify-content: start;
+    }
+
+    .modal-content {
+        width: 95%;
+        margin: 2% auto;
+    }
+}
+
+/* Tab Pane Styles */
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+/* Info Grid */
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.info-item {
+    padding: 1rem;
+    background: rgba(187, 134, 252, 0.1);
+    border-radius: 8px;
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: rgba(187, 134, 252, 0.1);
+    border-radius: 20px;
+    color: #bb86fc;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    background: #bb86fc;
+    color: #000;
+}
+
+/* Submit Button */
+.submit-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background: #bb86fc;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: #9d4edd;
+    color: #fff;
+}
+
+/* Education Item */
+.education-item {
+    padding: 1rem;
+    background: rgba(187, 134, 252, 0.1);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+/* Skill Item */
+.skill-item {
+    margin-bottom: 1rem;
+}
+
+.skill-name {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.skill-bar {
+    height: 8px;
+    background: rgba(187, 134, 252, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.skill-progress {
+    height: 100%;
+    background: #bb86fc;
+    border-radius: 4px;
+    transition: width 0.3s ease;
+}
+
+/* Experience Item */
+.experience-item {
+    padding: 1rem;
+    background: rgba(187, 134, 252, 0.1);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.position {
+    color: #bb86fc;
+    margin: 0.5rem 0;
+}
+
+.duration {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+/* Project Item */
+.project-item {
+    padding: 1rem;
+    background: rgba(187, 134, 252, 0.1);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.technologies {
+    color: #bb86fc;
+    margin: 0.5rem 0;
+}
+
+.project-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #bb86fc;
+    color: #000;
+    border-radius: 20px;
+    margin-top: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.project-link:hover {
+    background: #9d4edd;
+    color: #fff;
+}
+
+/* Extracurricular Items */
+.extracurricular-item {
+    background: rgba(187, 134, 252, 0.1);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.extracurricular-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.extracurricular-item h3 {
+    color: #fff;
+    margin: 0;
+}
+
+.badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+/* Badge colors for different types */
+.badge.blog {
+    background: #4CAF50;
+    color: #fff;
+}
+
+.badge.certification {
+    background: #2196F3;
+    color: #fff;
+}
+
+.badge.achievement {
+    background: #FFC107;
+    color: #000;
+}
+
+.badge.volunteer {
+    background: #E91E63;
+    color: #fff;
+}
+
+.badge.other {
+    background: #607D8B;
+    color: #fff;
+}
+
+.extracurricular-item .date {
+    color: #888;
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+}
+
+.extracurricular-item .description {
+    color: #ccc;
+    margin: 1rem 0;
+}
+
+.ext-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: rgba(187, 134, 252, 0.2);
+    color: #bb86fc;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.ext-link:hover {
+    background: #bb86fc;
+    color: #000;
+}
+
+/* Form select styling */
+.form-group select {
+    width: 100%;
+    padding: 0.75rem;
+    background: #2d2d2d;
+    border: 1px solid #444;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-group select:focus {
+    border-color: #bb86fc;
+    outline: none;
+}
+
+.form-group select option {
+    background: #2d2d2d;
+    color: #fff;
+}
+.form-actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.cancel-btn:hover {
+    background-color: #da190b;
+}
+
+.alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 4px;
+    z-index: 1000;
+}
+
+.alert-success {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.alert-error {
+    background-color: #f44336;
+    color: white;
+}
+
+.form-actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.skills-category {
+    margin-bottom: 20px;
+}
+
+.skills-category h3 {
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.9); /* Off-white color */
+    font-size: 1.1rem; /* Slightly smaller heading */
+}
+
+.skills-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px; /* Increased gap between items */
+    margin-top: 10px;
+
+.skill-tag {
+    background: rgba(187, 134, 252, 0.1);
+    padding: 8px 20px; /* Increased padding */
+    border-radius: 20px;
+    font-size: 1rem; /* Increased font size */
+    color: #bb86fc;
+    margin: 5px; /* Added margin between tags */
+}
+
+.skill-category-container {
+    margin-bottom: 20px;
+}
+
+.skill-category-container .form-group {
+    margin-bottom: 15px;
+}
+
+.experience-item {
+    padding: 1.5rem;
+    background: rgba(187, 134, 252, 0.1);
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.experience-item h3 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.experience-item .company {
+    color: #bb86fc;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.experience-item .duration {
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.experience-item .description {
+    color: rgba(255, 255, 255, 0.87);
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.experience-item .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tech-tag {
+    background: rgba(187, 134, 252, 0.2);
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    color: #bb86fc;
+}
+
+.project-item {
+    padding: 1.5rem;
+    background: rgba(187, 134, 252, 0.1);
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.project-item h3 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.project-item .duration {
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.project-item .description {
+    color: rgba(255, 255, 255, 0.87);
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.project-item .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 1rem;
+}
+
+.project-item .project-link a {
+    color: #bb86fc;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.project-item .project-link a:hover {
+    text-decoration: underline;
+}
+
+}
+.profile-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 80px; /* Added to push content below the navbar */
+}

@@ -1,0 +1,1236 @@
+
+/* Fonts */
+:root {
+  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Satisfy",  sans-serif;
+  --nav-font: "Poppins",  sans-serif;
+}
+
+/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
+:root { 
+  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
+  --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #433f39; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #b27bf5; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+}
+
+/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
+:root {
+  --nav-color: #ffffff;  /* The default color of the main navmenu links */
+  --nav-hover-color: #b27bf5; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-color: black; /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-hover-color: #b27bf5; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+}
+
+/* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
+
+/* extra */
+/* Add this to your main.css or styles.css */
+.logo {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important; /* Controls space between logo and text */
+}
+
+.logo img {
+  max-height: 35px !important;
+  height: 35px !important;
+  width: auto !important;
+  object-fit: contain !important;
+  margin: 0 !important; /* Remove any default margins */
+  padding: 0 !important; /* Remove any default padding */
+}
+
+.logo .sitename {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 0.2 !important; /* Helps with vertical alignment */
+}
+
+/* Adjust the header height if needed */
+.header {
+  padding: 0.6px 0 !important; /* Reduce overall header padding if needed */
+}
+
+.sitename {
+  transition: all 0.3s ease;
+  font-size: 32px;
+}
+
+.sitename:hover {
+  color: #bb86fc !important;
+  transform: scale(1.05);
+}
+
+#preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 999999;
+  overflow: hidden;
+  background: #fff;
+  transition: all 0.6s ease-out;
+}
+
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #fff;
+  border-color: var(--color-primary) transparent var(--color-primary) transparent;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: animate-preloader 1s linear infinite;
+}
+
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Hero Section */
+.code2-hero .container {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #2a2a2a, #3a3a3a);
+  padding: 60px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transform: scale(0.97);
+  transition: all 0.5s ease;
+  max-width: 1200px;
+  min-height: 500px;
+  gap: 40px;
+  overflow: hidden;
+}
+
+.code2-hero .container:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 40px rgba(255, 255, 255, 0.15);
+}
+
+.code2-hero .hero-content {
+  text-align: left;
+  max-width: 50%;
+}
+
+.code2-hero .hero-content h1 {
+  font-size: 2.7em;
+  margin: 0;
+}
+
+.highlight2 {
+  font-size: 1em;
+  color: #b27bf5;
+}
+
+.code2-hero .hero-content .highlight {
+  color: #bb86fc;
+}
+
+.code2-hero .hero-content p {
+  font-size: 6em;
+  margin-top: 10px;
+  color: #ccc;
+}
+
+.code2-hero .buttons {
+  margin-top: 20px;
+}
+
+.code2-hero .btn {
+  padding: 12px 20px;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+.btn2.primary2,
+.btn2.secondary2 {
+  background-color: #7849b3;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  padding: 12px 20px; /* ensure same padding as before */
+}
+
+/* Hover effect for both buttons */
+.btn2.primary2:hover,
+.btn2.secondary2:hover {
+  background-color: transparent;
+  color: #b27bf5;
+  border: 3px solid #7849b3;
+  transform: scale(1.1);
+}
+
+.code2-hero .hero-image img {
+  width: 500px;
+  max-width: 100%;
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@media (max-width: 768px) {
+  .code2-hero .container {
+    flex-direction: column;
+    text-align: center;
+    max-width: 90%;
+    min-height: auto;
+  }
+  .code2-hero .hero-content {
+    max-width: 100%;
+  }
+  .code2-hero .hero-image img {
+    width: 300px;
+  }
+}
+
+/* done here */
+
+.light-background {
+  --background-color: #fffaf3;
+  --surface-color: #ffffff;
+}
+
+.dark-background {
+  --background-color: #1e160d;
+  --default-color: #ffffff;
+  --heading-color: #ffffff;
+  --surface-color: #42301c;
+  --contrast-color: #ffffff;
+}
+
+/* Smooth scroll */
+:root {
+  scroll-behavior: smooth;
+}
+
+/*--------------------------------------------------------------
+# General Styling & Shared Classes
+--------------------------------------------------------------*/
+body {
+  color: var(--default-color);
+  background-color: #1a1a1a;
+  font-family: var(--default-font);
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: color-mix(in srgb, var(--accent-color), transparent 25%);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+  font-family: var(--heading-font);
+}
+
+/* Pulsating Play Button
+------------------------------*/
+.pulsating-play-btn {
+  width: 94px;
+  height: 94px;
+  background: radial-gradient(var(--accent-color) 50%, color-mix(in srgb, var(--accent-color), transparent 75%) 52%);
+  border-radius: 50%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.pulsating-play-btn:before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  animation-delay: 0s;
+  animation: pulsate-play-btn 2s;
+  animation-direction: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps;
+  opacity: 1;
+  border-radius: 50%;
+  border: 5px solid color-mix(in srgb, var(--accent-color), transparent 30%);
+  top: -15%;
+  left: -15%;
+  background: rgba(198, 16, 0, 0);
+}
+
+.pulsating-play-btn:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 100;
+  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.pulsating-play-btn:hover:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border: none;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 200;
+  animation: none;
+  border-radius: 0;
+}
+
+.pulsating-play-btn:hover:after {
+  border-left: 15px solid var(--accent-color);
+  transform: scale(20);
+}
+
+@keyframes pulsate-play-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+/*--------------------------------------------------------------
+# Global Header
+--------------------------------------------------------------*/
+.header {
+  --background-color: rgba(255, 255, 255, 0);
+  --default-color: #ffffff;
+  --heading-color: #ffffff;
+  transition: all 0.5s;
+  z-index: 997;
+  background: linear-gradient(135deg, rgba(42, 42, 42, 0.8), rgba(71, 71, 71, 0.8));
+  color: #ffffff;
+}
+
+.profile-container {
+  background-color: #1a1a1a; /* Dark background */
+  color: #ffffff; /* Light text */
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 80px; /* Push content below the navbar */
+}
+
+.header .topbar {
+  background-color: var(--background-color);
+  padding: 5px 0 0 0;
+  font-size: 14px;
+  transition: all 0.5s;
+}
+
+.header .topbar .contact-info i {
+  font-style: normal;
+  color: var(--accent-color);
+}
+
+.header .topbar .contact-info i a,
+.header .topbar .contact-info i span {
+  padding-left: 5px;
+  color: var(--contrast-color);
+}
+
+@media (max-width: 575px) {
+
+  .header .topbar .contact-info i a,
+  .header .topbar .contact-info i span {
+    font-size: 13px;
+  }
+}
+
+.header .topbar .contact-info i a {
+  line-height: 0;
+  transition: 0.3s;
+}
+
+.header .topbar .contact-info i a:hover {
+  color: var(--contrast-color);
+  text-decoration: underline;
+}
+
+.header .topbar .cta-btn {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 6px 30px 8px 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.header .topbar .cta-btn:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+}
+
+.header .branding {
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.header .logo {
+  line-height: 1;
+}
+
+.header .logo img {
+  max-height: 30px;
+  margin-right: 8px;
+}
+
+.header .logo h1 {
+  font-size: 30px;
+  margin: 0;
+  font-weight: 700;
+  color: var(--heading-color);
+}
+
+/* Global Header on Scroll
+------------------------------*/
+.scrolled .header {
+  background: linear-gradient(135deg, rgba(42, 42, 42, 0.8), rgba(71, 71, 71, 0.8));
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/* Navmenu - Desktop */
+@media (min-width: 1200px) {
+  .navmenu {
+    padding: 0;
+  }
+
+  .navmenu ul {
+    margin: 0;
+    padding: 1;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+
+  .navmenu li {
+    position: relative;
+  }
+
+  .navmenu a,
+  .navmenu a:focus {
+    color: var(--nav-color);
+    padding: 16px 15px;
+    font-size: 14px;
+    font-family: var(--nav-font);
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+
+  .navmenu a i,
+  .navmenu a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+    transition: 0.3s;
+  }
+
+  .navmenu li:last-child a {
+    padding-right: 0;
+  }
+
+  .navmenu li:hover>a,
+  .navmenu .active,
+  .navmenu .active:focus {
+    color: var(--nav-hover-color);
+  }
+
+  .navmenu .dropdown ul {
+    margin: 0;
+    padding: 10px 0;
+    background: var(--nav-dropdown-background-color);
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    left: 14px;
+    top: 130%;
+    opacity: 0;
+    transition: 0.3s;
+    border-radius: 4px;
+    z-index: 99;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .navmenu .dropdown ul li {
+    min-width: 200px;
+  }
+
+  .navmenu .dropdown ul a {
+    padding: 10px 20px;
+    font-size: 15px;
+    text-transform: none;
+    color: var(--nav-dropdown-color);
+  }
+
+  .navmenu .dropdown ul a i {
+    font-size: 12px;
+  }
+
+  .navmenu .dropdown ul a:hover,
+  .navmenu .dropdown ul .active:hover,
+  .navmenu .dropdown ul li:hover>a {
+    color: var(--nav-dropdown-hover-color);
+  }
+
+  .navmenu .dropdown:hover>ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+  }
+
+  .navmenu .dropdown .dropdown ul {
+    top: 0;
+    left: -90%;
+    visibility: hidden;
+  }
+
+  .navmenu .dropdown .dropdown:hover>ul {
+    opacity: 1;
+    top: 0;
+    left: -100%;
+    visibility: visible;
+  }
+}
+
+/* Navmenu - Mobile */
+@media (max-width: 1199px) {
+  .mobile-nav-toggle {
+    color: var(--nav-color);
+    font-size: 28px;
+    line-height: 0;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .navmenu {
+    padding: 0;
+    z-index: 9997;
+  }
+
+  .navmenu ul {
+    display: none;
+    list-style: none;
+    position: absolute;
+    inset: 60px 20px 20px 20px;
+    padding: 10px 0;
+    margin: 0;
+    border-radius: 6px;
+    background-color: black;
+    overflow-y: auto;
+    transition: 0.3s;
+    z-index: 9998;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .navmenu a,
+  .navmenu a:focus {
+    color: white;
+    padding: 10px 20px;
+    font-family: var(--nav-font);
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+
+  .navmenu a i,
+  .navmenu a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+  }
+
+  .navmenu a i:hover,
+  .navmenu a:focus i:hover {
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+  }
+
+  .navmenu a:hover,
+  .navmenu .active,
+  .navmenu .active:focus {
+    color: var(--nav-dropdown-hover-color);
+  }
+
+  .navmenu .active i,
+  .navmenu .active:focus i {
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+    transform: rotate(180deg);
+  }
+
+  .navmenu .dropdown ul {
+    position: static;
+    display: none;
+    z-index: 99;
+    padding: 10px 0;
+    margin: 10px 20px;
+    background-color: var(--nav-dropdown-background-color);
+    border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+    box-shadow: none;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .navmenu .dropdown ul ul {
+    background-color: rgba(33, 37, 41, 0.1);
+  }
+
+  .navmenu .dropdown>.dropdown-active {
+    display: block;
+    background-color: rgba(33, 37, 41, 0.03);
+  }
+
+  .mobile-nav-active {
+    overflow: hidden;
+  }
+
+  .mobile-nav-active .mobile-nav-toggle {
+    color: #fff;
+    position: absolute;
+    font-size: 32px;
+    top: 15px;
+    right: 15px;
+    margin-right: 0;
+    z-index: 9999;
+  }
+
+  .mobile-nav-active .navmenu {
+    position: fixed;
+    overflow: hidden;
+    inset: 0;
+    background: rgba(33, 37, 41, 0.8);
+    transition: 0.3s;
+  }
+
+  .mobile-nav-active .navmenu>ul {
+    display: block;
+  }
+}
+
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+#preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 999999;
+  overflow: hidden;
+  background: var(--background-color);
+  transition: all 0.6s ease-out;
+}
+
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #ffffff;
+  border-color: var(--accent-color) transparent var(--accent-color) transparent;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: animate-preloader 1.5s linear infinite;
+}
+
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*--------------------------------------------------------------
+# Scroll Top Button
+--------------------------------------------------------------*/
+.scroll-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 99999;
+  background-color: var(--accent-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.scroll-top i {
+  font-size: 24px;
+  color: var(--contrast-color);
+  line-height: 0;
+}
+
+.scroll-top:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  color: var(--contrast-color);
+}
+
+.scroll-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
+
+/*--------------------------------------------------------------
+# Global Page Titles & Breadcrumbs
+--------------------------------------------------------------*/
+.page-title {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  position: relative;
+}
+
+.page-title .heading {
+  padding: 160px 0 60px 0;
+  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+}
+
+.page-title .heading h1 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.page-title nav {
+  background-color: color-mix(in srgb, var(--default-color), transparent 90%);
+  padding: 20px 0;
+}
+
+.page-title nav ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.page-title nav ol li+li {
+  padding-left: 10px;
+}
+
+.page-title nav ol li+li::before {
+  content: "/";
+  display: inline-block;
+  padding-right: 10px;
+  color: color-mix(in srgb, var(--default-color), transparent 70%);
+}
+
+/*--------------------------------------------------------------
+# Global Sections
+--------------------------------------------------------------*/
+section,
+.section {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  padding: 60px 0;
+  scroll-margin-top: 112px;
+  overflow: clip;
+}
+
+@media (max-width: 1199px) {
+
+  section,
+  .section {
+    scroll-margin-top: 105px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Global Section Titles
+--------------------------------------------------------------*/
+.section-title {
+  text-align: center;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.section-title h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0;
+  background: color-mix(in srgb, var(--accent-color), transparent 90%);
+  color: var(--accent-color);
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+  font-family: var(--default-font);
+}
+
+.section-title div {
+  color: var(--heading-color);
+  margin: 10px 0 0 0;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: var(--heading-font);
+}
+
+.section-title div .description-title {
+  color: var(--accent-color);
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+.hero {
+  padding: 0;
+}
+
+.hero .carousel {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: var(--background-color);
+  position: relative;
+}
+
+.hero img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+
+/***********************************************
+ * Code 2 Hero Overrides with Unique Selectors
+ ***********************************************/
+ .hero2-section {
+  /* Dark background behind the grey box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px; 
+  background-color: black; /* Or your chosen dark color */
+}
+
+/* The grey box container */
+.hero2-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: linear-gradient(135deg, #2a2a2a, #3a3a3a); /* Greyish gradient */
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  max-width: 1200px;
+  width: 100%;
+  padding: 60px;
+  gap: 40px;
+  overflow: hidden; /* Ensures large images don't spill out */
+  transform: scale(0.97);
+  transition: all 0.5s ease;
+}
+
+.hero2-container:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 40px rgba(255, 255, 255, 0.15);
+}
+
+/* Left side text */
+.hero2-content {
+  width: 50%;
+  text-align: left;
+}
+
+.hero2-content h1 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #fff; /* Or your preferred text color */
+}
+
+.highlight2 {
+  color: #bb86fc; /* Purple highlight color */
+}
+
+.hero2-content p {
+  margin-top: 10px;
+  color: #ccc;
+}
+
+/* Buttons */
+.hero2-buttons {
+  margin-top: 20px;
+}
+
+.btn2 {
+  padding: 12px 20px;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  margin-right: 10px;
+}
+
+.primary2 {
+  background: #bb86fc;
+  color: #fff;
+}
+
+.secondary2 {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn2:hover {
+  transform: scale(1.05);
+}
+
+/* Right side image */
+.hero2-image {
+  width: 50%;
+  text-align: center; /* or right, if you prefer */
+}
+
+.hero2-image img {
+  width: 100%;
+  max-width: 500px;
+  animation: float2 4s ease-in-out infinite;
+}
+
+/* Floating animation */
+@keyframes float2 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero2-container {
+    flex-direction: column;
+    max-width: 80%;
+    padding: 30px;
+  }
+  .hero2-content, .hero2-image {
+    width: 100%;
+    text-align: center;
+  }
+  .hero2-image img {
+    max-width: 300px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Why Us Section
+--------------------------------------------------------------*/
+.why-us {
+  /* Dark background behind the grey box */
+  background-color: black; /* Or your chosen dark color */
+}
+
+.why-us .card-item {
+  background: linear-gradient(135deg, #2a2a2a, #3a3a3a); /* Greyish gradient */
+  padding: 50px 30px;
+  transition: all ease-in-out 0.3s;
+  height: 100%;
+  position: relative;
+}
+
+.why-us .card-item span {
+  color: var(--accent-color);
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.why-us .card-item h4 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.why-us .card-item h4 a {
+  color: var(--heading-color);
+}
+
+.why-us .card-item p {
+  font-size: 15px;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  margin: 0;
+  padding: 0;
+}
+
+.why-us .card-item:hover {
+  background: var(--accent-color);
+  padding: 30px 30px 70px 30px;
+}
+
+.why-us .card-item:hover span,
+.why-us .card-item:hover h4 a,
+.why-us .card-item:hover p {
+  color: var(--contrast-color);
+}
+
+/* Contact page specific styles */
+.contact-section {
+  background-color: #1a1a1a;
+  color: #fff;
+  min-height: 100vh;
+  padding-top: 106px !important; /* Pushes content below navbar */
+  padding-bottom: 60px;
+  margin-top: 0;
+}
+
+.contact-section .container {
+  background-color: #1a1a1a;
+}
+
+.contact-section .info-box {
+  background-color: #242424;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+.contact-section .info-box h3 {
+  color: #b27bf5;
+}
+
+.contact-section .info-box p {
+  color: #ccc;
+}
+
+.contact-section .info-box i {
+  color: #b27bf5;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+body .contact-section .info-box h3,
+body .contact-section .info-box i.bi {
+    color: #b27bf5 !important;
+}
+
+.contact-section h1 {
+  color: #fff !important;
+  text-align: center !important;
+  margin-bottom: 30px !important;
+}
+
+/* Remove gap between navbar and content */
+.header + .main {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.main {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  background-color: #1a1a1a !important;
+}
+
+/* Remove any additional spacing */
+.contact-section:before,
+.contact-section:after {
+  display: none !important;
+}
+
+.main:before,
+.main:after {
+  display: none !important;
+}
+
+/* Login page specific styles */
+.form-container h2 {
+  color: rgb(239, 230, 230) !important;
+}
+
+.login-section .form-container h2 {
+  color: rgb(239, 230, 230) !important;
+}
+
+/* Style for "New User?" text and other paragraph text in login form */
+.form-container p {
+  color: rgb(239, 230, 230) !important;
+}
+
+.form-container p a {
+  color: #b27bf5 !important; /* Keep links in your accent color */
+}
+
+/* In case higher specificity is needed */
+body .form-container h2,
+body .form-container p {
+  color: rgb(239, 230, 230) !important;
+}
+
+/* Student Search Page Specific Styles */
+.student-search-section {
+  padding-top: 70px !important; /* Pushes content lower */
+  background-color: #1a1a1a !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important; /* Prevents horizontal scroll */
+  min-height: 100vh !important;
+  position: relative !important;
+}
+
+.student-search-section .container {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+/* Student Search Title */
+.student-search-section h1 {
+  color: #f5f5f5 !important; /* Off-white color */
+  margin-bottom: 30px !important;
+  font-size: 2.2em !important;
+}
+
+/* Search Form Styling */
+.student-search-section .input-group {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+}
+
+.student-search-section .form-control {
+  background-color: #2a2a2a !important;
+  border: 1px solid #3a3a3a !important;
+  color: #f5f5f5 !important;
+  padding: 12px 20px !important;
+}
+
+.student-search-section .form-control::placeholder {
+  color: #999 !important;
+}
+
+/* Search Button */
+.student-search-section .btn-primary {
+  background-color: #b27bf5 !important;
+  border-color: #b27bf5 !important;
+  padding: 12px 25px !important;
+}
+
+.student-search-section .btn-primary:hover {
+  background-color: #9b5cf7 !important;
+  border-color: #9b5cf7 !important;
+}
+
+/* Search Results Container */
+#searchResults {
+  
+  margin-top: 40px !important;
+  padding: 20px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+/* Alert Styling Override */
+.student-search-section .alert {
+  background-color: #2a2a2a !important;
+  border: 1px solid #3a3a3a !important;
+  color: #f5f5f5 !important;
+  margin-top: 20px !important;
+}
+
+/* Modal Styling Override */
+.student-search-section .modal-content {
+  background-color: #2a2a2a !important;
+  color: #f5f5f5 !important;
+}
+
+.student-search-section .modal-header {
+  border-bottom-color: #3a3a3a !important;
+}
+
+.student-search-section .modal-footer {
+  border-top-color: #3a3a3a !important;
+}
+
+.student-search-section .btn-close {
+  color: #f5f5f5 !important;
+  filter: invert(1) !important;
+}

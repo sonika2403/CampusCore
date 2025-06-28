@@ -1,0 +1,361 @@
+body {
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header/Navbar Styles */
+.header {
+  background: linear-gradient(135deg, #2a2a2a, #3a3a3a);
+  padding: 15px 0;
+  transition: all 0.5s;
+  z-index: 997;
+}
+
+.header .logo {
+  text-decoration: none;
+}
+
+.header .logo img {
+  max-height: 40px;
+  margin-right: 6px;
+}
+
+.header .logo h1 {
+  font-size: 26px;
+  margin: 0;
+  color: #fff;
+  font-weight: 600;
+}
+
+.navmenu {
+  padding: 0;
+  margin: 0;
+}
+
+.navmenu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 6px; /* Reduced space between nav items */
+  font-size: smaller;
+}
+
+.navmenu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navmenu a:hover {
+  color: #b27bf5;
+}
+
+/* Search Container Styles */
+.search-container {
+  margin-top: 90px;
+  padding: 0 8px;
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.search-container h1 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+/* Search Box Styles */
+.search-box {
+  display: flex;
+  flex-direction: column; /* Changed to column */
+  align-items: center; /* Center the items */
+  gap: 10px;
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 0 8px; /* Added 8px padding */
+  box-sizing: border-box;
+}
+
+#searchInput {
+  width: 100%;
+  max-width: 100%; /* Or whatever maximum width you prefer */
+  padding: 12px 20px;
+  border: 2px solid #3a3a3a;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #2a2a2a;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+#searchButton {
+  width: 100%;
+  max-width: 100%; /* Same as searchInput */
+  padding: 12px 30px;
+  background-color: #b27bf5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-sizing: border-box;
+}
+
+#searchButton:hover {
+  background-color: #9b5cf7;
+}
+
+/* Search Results Styles */
+#searchResults {
+  margin-top: 30px;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+.profile-card {
+  background: linear-gradient(135deg, #2a2a2a, #3a3a3a);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hidden expanded content by default */
+.expanded-content {
+  display: none;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: #e0e0e0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* Basic card content */
+.basic-content {
+  margin-bottom: 10px;
+}
+
+/* Collapsed Card State */
+.profile-card .expanded-content {
+  display: none;
+  opacity: 0;
+  height: 0;
+  transition: all 0.3s ease;
+}
+
+/* Expanded Card State */
+.profile-card.expanded {
+  background: linear-gradient(135deg, #3a3a3a, #4a4a4a);
+}
+
+.profile-card.expanded .expanded-content {
+  display: block;
+  opacity: 1;
+  height: auto;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.profile-card h3 {
+  color: #ffffff;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.profile-card .skills {
+  color: #e0e0e0;
+  margin: 10px 0;
+}
+
+.profile-card .expanded-content p {
+  color: #e0e0e0;
+  margin: 10px 0;
+}
+
+.profile-card p {
+  color: #e0e0e0;
+  margin: 10px 0;
+}
+
+.profile-card strong {
+  color: #b27bf5;
+}
+
+.profile-card a {
+  color: #b27bf5;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.profile-card a:hover {
+  color: #9b5cf7;
+}
+
+/* Recommendations Section Styles */
+.recommendations-section {
+  margin-top: 20px;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+.recommendations-section h2 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.recommendation-cards {
+  display: flex; /* Changed from grid to flex */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  gap: 20px;
+  padding-bottom: 20px; /* Add padding for scrollbar */
+  scroll-behavior: smooth; /* Smooth scrolling */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  align-items: flex-start; /* This keeps cards aligned at the top */
+}
+
+/* Hide scrollbar but keep functionality */
+.recommendation-cards::-webkit-scrollbar {
+  height: 8px;
+}
+
+.recommendation-cards::-webkit-scrollbar-track {
+  background: #2a2a2a;
+  border-radius: 4px;
+}
+
+.recommendation-cards::-webkit-scrollbar-thumb {
+  background: #b27bf5;
+  border-radius: 4px;
+}
+
+/* Recommended Profile Card Styles */
+#recommendedProfiles .profile-card {
+  flex: 0 0 calc(33.333% - 14px); /* Fixed width cards, 3 visible at once */
+  min-width: 300px; /* Minimum width of cards */
+  background: linear-gradient(145deg, #2d2d2d, #383838);
+  padding: 20px;
+  height: auto; /* Fixed height */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 150px;
+  transition: all 0.3s ease;
+}
+
+#recommendedProfiles .profile-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Error Message Styles */
+.error-message {
+  color: #ff6b6b;
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 107, 107, 0.1);
+  border-radius: 6px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 991px) {
+  .mobile-nav-toggle {
+    display: block;
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+    line-height: 0;
+    transition: 0.5s;
+  }
+
+  .navmenu ul {
+    display: none;
+  }
+
+  .recommendation-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .recommendation-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .search-container {
+    padding: 0 15px;
+  }
+
+  .profile-card {
+    padding: 15px;
+  }
+}
+
+/* Dropdown Menu Styles */
+.navmenu .dropdown ul {
+  display: block;
+  position: absolute;
+  left: 14px;
+  top: calc(100% + 30px);
+  margin: 0;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: #2a2a2a;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+.navmenu .dropdown ul li {
+  min-width: 200px;
+}
+
+.navmenu .dropdown ul a {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #e0e0e0;
+}
+
+.navmenu .dropdown ul a:hover {
+  color: #b27bf5;
+}
+
+.navmenu .dropdown:hover > ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+
+/* Mobile Navigation */
+.navmenu-mobile {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  transition: 0.3s;
+  z-index: 999;
+}

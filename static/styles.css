@@ -1,0 +1,265 @@
+/* General styles */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  text-align: center;
+  background-color: #121212; /* Black background */
+  margin: 0;
+  padding: 0;
+  color: white; /* Default text color */
+}
+
+/*extra */
+/* Add this to your main.css or styles.css */
+.logo {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important; /* Controls space between logo and text */
+}
+
+.logo img {
+  max-height: 35px !important;
+  height: 35px !important;
+  width: auto !important;
+  object-fit: contain !important;
+  margin: 0 !important; /* Remove any default margins */
+  padding: 0 !important; /* Remove any default padding */
+}
+
+.logo .sitename {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 0.4 !important; /* Helps with vertical alignment */
+}
+
+/* Adjust the header height if needed */
+.header {
+  padding: 5px 0 !important; /* Reduce overall header padding if needed */
+}
+
+.alert {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 20px auto;
+  padding: 15px;
+  border: none !important; /* Added !important to override Bootstrap */
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: slideDown 0.5s ease-out;
+  /* Remove any default background */
+  background-image: none !important;
+}
+
+.alert-success {
+  background-color: #4CAF50 !important; /* Added !important */
+  color: white;
+}
+
+.alert-danger {
+  background-color: #f44336 !important; /* Added !important */
+  color: white;
+}
+
+.alert-dismissible {
+  padding-right: 20px; /* Adjust padding for close button */
+}
+
+.alert-dismissible .btn-close {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: white;
+  opacity: 0.8;
+  padding: 0;
+  background: none;
+}
+
+.btn-close {
+  filter: brightness(0) invert(1); /* Makes the close button white */
+}
+
+.btn-close:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+@keyframes slideDown {
+  from {
+      transform: translateY(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+.form-container {
+  margin-top: 20px;
+}
+
+/* Optional: Add animation for alert dismissal */
+.alert.fade {
+  transition: opacity 0.15s linear;
+}
+
+.alert.fade.show {
+  opacity: 1;
+}
+
+
+/* Header with CampusCore Branding */
+.header {
+  width: 100%;
+  background-color: #181818;
+  padding: 15px 0;
+  text-align: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.logo h1 {
+  font-family: "Satisfy",  sans-serif;
+  color: #b27bf5;
+  font-size: 30px;
+  margin: 0;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+/* Form container */
+.form-container {
+  background: linear-gradient(135deg, #2a2a2a, #3a3a3a);
+  padding: 25px;
+  margin: 100px auto;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-container:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Input fields */
+input {
+  display: block;
+  width: 100%;
+  margin: 12px 0;
+  padding: 12px;
+  box-sizing: border-box; 
+  border: 1px solid #666;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #222;
+  color: white;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+  border-color: #b27bf5;
+  outline: none;
+  box-shadow: 0 0 6px rgba(178, 123, 245, 0.7);
+}
+
+/* Button styling */
+button {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #b27bf5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #9a5de3;
+  transform: scale(1.03);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #b27bf5;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Flash messages */
+.flash-message {
+  margin: 20px auto;
+  padding: 10px;
+  width: 320px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.flash-message.success {
+  background-color: #d4edda;
+  color: #155724;
+  border-left: 4px solid #28a745;
+}
+
+.flash-message.danger {
+  background-color: #f8d7da;
+  color: #721c24;
+  border-left: 4px solid #dc3545;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .form-container {
+    width: 90%;
+  }
+}
+
+/* extra */
+
+.sitename {
+  transition: all 0.3s ease;
+  font-size: 32px;
+}
+
+.sitename:hover {
+  color: #bb86fc !important;
+  transform: scale(1.05);
+}
+
+/* Add to your main.css or styles.css */
+.modal-dialog {
+  max-width: 800px;
+}
+
+.student-details img {
+  max-width: 200px;
+  height: auto;
+}
+
+.view-details {
+  transition: all 0.3s ease;
+}
+
+.view-details:hover {
+  transform: translateY(-2px);
+}
+

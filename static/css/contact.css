@@ -1,0 +1,144 @@
+/* Contact Page Specific Styles */
+/* extra */
+.branding .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .branding .logo img {
+    max-height: 30px;
+    width: auto;
+    object-fit: contain;
+  }
+  
+  .branding .sitename {
+    margin-left: 10px;
+    font-size: 1.5rem; /* Adjust as needed */
+  }
+  /* Header and Logo Styles */
+  .header {
+    background-color: #181818;
+    padding: 6px 0;
+  }
+  
+  .logo {
+    text-decoration: none;
+  }
+  
+  .sitename {
+    font-family: "Satisfy", cursive;
+    color: #b27bf5;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 400;
+  }
+  
+  .logo img {
+    max-height: 30px;
+    margin-right: 10px;
+  }
+  
+  .branding {
+    width: 100%;
+    background-color: #181818;
+    padding: 15px 0;
+    text-align: left;
+  }
+  
+  .main {
+    padding-top: 100px;
+    min-height: 100vh;
+    background-color: black;
+  }
+  
+  .contact-section {
+    padding: 40px 0;
+  }
+  
+  .contact-section h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #b27bf5; /* Using the same purple accent color */
+    font-size: 2.5em;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .info-box {
+    background: linear-gradient(
+      135deg,
+      rgba(42, 42, 42, 0.8),
+      rgba(71, 71, 71, 0.8)
+    );
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .info-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(255, 255, 255, 0.15);
+  }
+  
+  .info-box i {
+    font-size: 40px;
+    color: #b27bf5; /* Purple accent color */
+    margin-bottom: 20px;
+  }
+  
+  .info-box h3 {
+    color: #b27bf5; /* Purple accent color */
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .info-box p {
+    color: white;
+    margin: 5px 0;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  
+  /* Animation */
+  .info-box {
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .info-box {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .contact-section {
+      padding: 20px;
+    }
+  
+    .contact-section h1 {
+      font-size: 2em;
+    }
+  }

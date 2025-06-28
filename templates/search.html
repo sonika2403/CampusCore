@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Search - CampusCore</title>
+    
+    <!-- Favicons -->
+    <link href="{{ url_for('static', filename='img/logo_img.png') }}" rel="icon">
+    <link href="{{ url_for('static', filename='img/logo_img.png') }}" rel="apple-touch-icon">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- Bootstrap Icons CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Vendor CSS Files -->
+    <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='vendor/aos/aos.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+    
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/search.css') }}">
+</head>
+<body>
+<!-- Header/Navbar -->
+<header id="header" class="header fixed-top">
+  <div class="branding d-flex align-items-center">
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+          <a href="{{ url_for('index') }}" class="logo d-flex align-items-center">
+              <img src="{{ url_for('static', filename='img/logo_img.png') }}" alt="CampusCore Logo">
+              <h1 class="sitename">CampusCore</h1>
+          </a>
+          <nav id="navmenu" class="navmenu">
+              <ul>
+                  <li><a href="{{ url_for('profile') }}" class="nav-link">Profile</a></li>
+                  <li><a href="{{ url_for('search') }}" class="nav-link">Search</a></li>
+                  <li><a href="{{ url_for('contact') }}" class="nav-link">Contact Us</a></li>
+                  <li class="dropdown">
+                      <a href="#"><span>Settings</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                      <ul>
+                          <li><a href="{{ url_for('account_settings') }}">Account Settings</a></li>
+                          <li><a href="{{ url_for('logout') }}">Logout</a></li>
+                      </ul>
+                  </li>
+              </ul>
+              <!-- <i class="bi bi-list mobile-nav-toggle"></i> -->
+              <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+          </nav>
+      </div>
+  </div>
+</header>
+
+
+    <!-- Main Content -->
+    <main id="main">
+        <div class="search-container">
+            <h1>Search Profiles</h1>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search by name, skills, or institution..." aria-label="Search profiles"/>
+                <button type="button" id="searchButton">
+                    <i class="fas fa-search"></i> Search
+                </button>
+            </div>
+            <div id="searchResults" class="search-results">
+                <!-- Search results will be dynamically inserted here -->
+            </div>
+
+            <!-- Recommendation Section -->
+            <div class="recommendations-section">
+                <h2>Recommended Profiles</h2>
+                <div id="recommendedProfiles" class="recommendation-cards">
+                    <!-- Recommendations will be dynamically inserted here -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Scroll Top Button -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+        <i class="bi bi-arrow-up-short"></i>
+    </a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/aos/aos.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/glightbox/js/glightbox.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/swiper/swiper-bundle.min.js') }}"></script>
+
+    <!-- Search functionality -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+    const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
+    const navmenu = document.querySelector('.navmenu');
+
+    if (mobileNavToggle) {
+        mobileNavToggle.addEventListener('click', function(e) {
+            navmenu.classList.toggle('navbar-mobile');
+            this.classList.toggle('bi-list');
+            this.classList.toggle('bi-x');
+        });
+    }
+    const searchInput = document.getElementById("searchInput");
+    const searchButton = document.getElementById("searchButton");
+    const resultsContainer = document.getElementById("searchResults");
+
+    // Function to fetch and display search results
+    function fetchSearchResults() {
+        const query = searchInput.value.trim();
+        if (!query) return;
+
+        fetch(`/api/search?query=${encodeURIComponent(query)}`)
+            .then((response) => response.json())
+            .then((data) => {
+                console.log("API Response:", data);
+                resultsContainer.innerHTML = "";
+
+                if (!data.success || !Array.isArray(data.results) || data.results.length === 0) {
+                    resultsContainer.innerHTML = "<p>No results found.</p>";
+                    return;
+                }
+
+                data.results.forEach((result) => {
+                    const profileCard = document.createElement('div');
+                    profileCard.classList.add('profile-card');
+                    
+                    const profile = result.profile;
+                    const personalInfo = profile.personalInfo || {};
+                    const skills = profile.skills || [];
+                    const education = profile.education || [];
+                    const socialLinks = profile.socialLinks || {};
+
+                    const skillList = skills
+                        .flatMap(skill => skill.items || [])
+                        .filter(Boolean)
+                        .join(", ") || "N/A";
+
+                    profileCard.innerHTML = `
+                        <div class="basic-content">
+                            <h3>${personalInfo.name || "Anonymous"}</h3>
+                            <div class="skills">
+                                <strong>Skills:</strong> ${skillList}
+                            </div>
+                        </div>
+                        <div class="expanded-content">
+                            <p><strong>Bio:</strong> ${personalInfo.bio || "N/A"}</p>
+                            <p><strong>Email:</strong> ${personalInfo.email || "N/A"}</p>
+                            <p><strong>Institution:</strong> ${education[0]?.institution || "N/A"}</p>
+                            <p><strong>LinkedIn:</strong> 
+                                <a href="${socialLinks.linkedin || "#"}" target="_blank">
+                                    ${socialLinks.linkedin ? "View Profile" : "Not Available"}
+                                </a>
+                            </p>
+                        </div>
+                    `;
+
+                    // Add click event listener
+                    profileCard.addEventListener('click', function(e) {
+                        if (e.target.tagName.toLowerCase() === 'a') {
+                            e.stopPropagation();
+                            return;
+                        }
+
+                        const container = this.parentElement;
+                        container.querySelectorAll('.profile-card').forEach(card => {
+                            if (card !== this && card.classList.contains('expanded')) {
+                                card.classList.remove('expanded');
+                            }
+                        });
+
+                        this.classList.toggle('expanded');
+                    });
+
+                    resultsContainer.appendChild(profileCard);
+                });
+            })
+            .catch((error) => {
+                console.error("Fetch Error:", error);
+                resultsContainer.innerHTML = `<p class="error-message">Something went wrong. Please try again later.</p>`;
+            });
+    }
+
+
+    // Function to fetch and display recommendations
+    function loadRecommendations() {
+        const recommendationsContainer = document.getElementById("recommendedProfiles");
+        
+        fetch('/api/recommendations', {
+            method: 'GET',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            credentials: 'include'
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log("Received recommendations:", data);
+            recommendationsContainer.innerHTML = '';
+            
+            if (data.recommendations && data.recommendations.length > 0) {
+                data.recommendations.forEach(profile => {
+                    console.log("Processing profile:", profile);  // Add this debug line
+                    const profileCard = document.createElement('div');
+                    profileCard.classList.add('profile-card');
+                    
+                    // Extract skills from the skills array
+                    const skillList = profile.skills
+                        .map(category => category.items || [])
+                        .flat()
+                        .filter(Boolean)
+                        .join(", ") || "N/A";
+
+                    profileCard.innerHTML = `
+                        <div class="basic-content">
+                            <h3>${profile.personalInfo.name}</h3>
+                            <div class="skills">
+                                <strong>Skills:</strong> ${skillList}
+                            </div>
+                        </div>
+                        <div class="expanded-content">
+                            <p><strong>Bio:</strong> ${profile.personalInfo.bio || 'N/A'}</p>
+                            <p><strong>Email:</strong> ${profile.personalInfo.email || 'N/A'}</p>
+                            <p><strong>Institution:</strong> ${profile.education && profile.education.length > 0 ? profile.education[0].institution : 'N/A'}</p>
+                            <p><strong>LinkedIn:</strong> 
+                                <a href="${profile.socialLinks?.linkedin || '#'}" target="_blank">
+                                    ${profile.socialLinks?.linkedin ? "View Profile" : "Not Available"}
+                                </a>
+                            </p>
+                        </div>
+                    `;                 
+                                    
+                    // Add click event listener
+                    profileCard.addEventListener('click', function(e) {
+                        if (e.target.tagName.toLowerCase() === 'a') {
+                            e.stopPropagation();
+                            return;
+                        }
+                        this.classList.toggle('expanded');
+                    });
+
+                    recommendationsContainer.appendChild(profileCard);
+                });
+            } else {
+                recommendationsContainer.innerHTML = `
+                    <div class="info-message">
+                        <p>No recommendations available at this time.</p>
+                    </div>`;
+            }
+        })
+        .catch(error => {
+            console.error("Error loading recommendations:", error);
+            recommendationsContainer.innerHTML = `
+                <div class="error-message">
+                    <p>Error loading recommendations. Please try again later.</p>
+                </div>`;
+        });
+    }
+
+    // Event listeners
+    searchButton.addEventListener("click", fetchSearchResults);
+    searchInput.addEventListener("keydown", function (event) {
+        if (event.key === "Enter") {
+            fetchSearchResults();
+        }
+    });
+
+    // Load recommendations when the page loads
+    loadRecommendations();
+});
+
+        
+    </script>
+  
+
+    <!-- Styles -->
+    <style>
+        .profile-card {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            background-color: #000;
+        }
+        .error-message {
+            color: red;
+            font-weight: bold;
+            #header.header {
+    background: #000;
+    padding: 15px 0;
+    transition: all 0.5s;
+    z-index: 997;
+}
+        }
+    </style>
+    <!-- Preloader Control -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      // Remove preloader when page is fully loaded
+      const preloader = document.getElementById('preloader');
+      if (preloader) {
+          window.addEventListener('load', function() {
+              preloader.remove();
+          });
+      }
+  });
+</script>
+
+</html>
